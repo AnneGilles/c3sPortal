@@ -1,6 +1,9 @@
 c3sPortal README
 ==================
 
+This is a site for the upcoming Creative Commons Collecting Society.
+
+
 Getting Started
 ---------------
 
