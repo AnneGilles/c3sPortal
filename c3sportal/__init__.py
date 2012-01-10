@@ -3,6 +3,7 @@ from sqlalchemy import engine_from_config
 
 from .models import DBSession
 
+
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
@@ -10,7 +11,16 @@ def main(global_config, **settings):
     DBSession.configure(bind=engine)
     config = Configurator(settings=settings)
     config.add_static_view('static', 'static', cache_max_age=3600)
+
+    # prepare to use the base template
+    config.add_subscriber('c3sportal.subscribers.add_base_template',
+                          'pyramid.events.BeforeRender')
+
     config.add_route('home', '/')
+    config.add_route('definition', '/about')
+    config.add_route('background', '/background')
+    config.add_route('motivation', '/motivation')
+    config.add_route('goals', '/goals')
+    config.add_route('roadmap', '/roadmap')
     config.scan()
     return config.make_wsgi_app()
-
