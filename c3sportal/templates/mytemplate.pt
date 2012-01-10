@@ -38,31 +38,25 @@
             </form>
         </div>
         <div id="right" class="align-left">
-          <h2>Pyramid links</h2>
+          <h2>About C3S</h2>
           <ul class="links">
             <li>
-              <a href="http://pylonsproject.org">Pylons Website</a>
+              <a href="${request.route_url('definition')}">What is C3S?</a>
             </li>
             <li>
-              <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/#narrative-documentation">Narrative Documentation</a>
+              <a href="${request.route_url('background')}">Who is doing C3S?</a>
             </li>
             <li>
-              <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/#reference-material">API Documentation</a>
+              <a href="${request.route_url('motivation')}">Why do we want to start C3S?</a>
             </li>
             <li>
-              <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/#tutorials">Tutorials</a>
+              <a href="${request.route_url('goals')}">What is C3S trying to become? What not?</a>
             </li>
             <li>
-              <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/#detailed-change-history">Change History</a>
+              <a href="${request.route_url('roadmap')}">How is this project being realized?</a>
             </li>
             <li>
-              <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/#sample-applications">Sample Applications</a>
-            </li>
-            <li>
-              <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/#support-and-development">Support and Development</a>
-            </li>
-            <li>
-              <a href="irc://irc.freenode.net#pyramid">IRC Channel</a>
+              <a href="irc://irc.freenode.net#OpenMusicContest.org">IRC Channel</a>
             </li>
             </ul>
         </div>
