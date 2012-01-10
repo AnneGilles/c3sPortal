@@ -14,6 +14,8 @@ requires = [
     'pyramid_tm',
     'pyramid_debugtoolbar',
     'zope.sqlalchemy',
+    'Babel',
+    'lingua',
     ]
 
 if sys.version_info[:3] < (2,5,0):
@@ -36,6 +38,10 @@ setup(name='c3sPortal',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
+      message_extractors={'.': [
+            ('**.py', 'lingua_python', None),
+            ('**.pt', 'lingua_xml', None),
+            ]},
       test_suite='c3sportal',
       install_requires = requires,
       entry_points = """\
