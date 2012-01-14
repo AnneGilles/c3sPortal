@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal">
+  <head>
+    <title>Creative Commons Collecting Society ALPHA</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="keywords" content="creative commons collecting society" />
+    <meta name="description" content="creative commons collecting society" />
+    <tal:block metal:define-slot="head-meta"></tal:block>
+    <link rel="shortcut icon" href="${request.static_url('c3sportal:static/favicon.ico')}" />
+    <link rel="stylesheet" href="${request.static_url('c3sportal:static/pylons.css')}" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="${request.static_url('c3sportal:static/c3sPortal.css')}" type="text/css" media="screen" charset="utf-8" />
+    <!-- link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton|Nobile:regular,i,b,bi&amp;subset=latin"
+	  type="text/css" media="screen" charset="utf-8" / -->
+    <!--[if lte IE 6]>
+	<link rel="stylesheet" href="${request.static_url('c3sportal:static/ie6.css')}" type="text/css" media="screen" charset="utf-8" />
+	<![endif]-->
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="top">
+	<div class="top align-center">
+          <div>
+	    <a href="${request.route_url('home')}"> <!-- width 750, height 169 -->
+	      <img src="${request.static_url('c3sportal:static/c3s-logo.png')}" width="375" height="83" alt="c3s"/>
+	    </a>
+	  </div>
+	</div>
+      </div>
+      <div id="stage">
+      <tal:block metal:define-slot="content"></tal:block>
+      </div>
+    </div>
+    <div>
+    </div>
+    <div tal:replace="structure footer" />
+  </body>
+</html>
+
