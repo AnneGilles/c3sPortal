@@ -22,10 +22,10 @@
     </div>
     <div id="middle">
       <div class="middle align-center">
-        <p class="app-welcome">
-          Welcome to <span class="app-name">${project}</span>, a new Collecting Society being booted up.
+        <p class="app-welcome" i18n:translate="c3s-welcome-definition">
+          Welcome to <strong>C3S</strong>, a new Collecting Society being booted up.
         </p>
-	<p>C3S is shorthand for Creative Commons Collecting Society</p>
+	<p i18n:translate="c3s-short-explanation">C3S is an abbreviation for <strong>Creative Commons Collecting Society</strong></p>
       </div>
     </div>
     <div id="bottom">
@@ -40,25 +40,13 @@
         <div id="right" class="align-left">
           <h2>About C3S</h2>
           <ul class="links">
-            <li>
-              <a href="${request.route_url('definition')}">What is C3S?</a>
-            </li>
-            <li>
-              <a href="${request.route_url('background')}">Who is doing C3S?</a>
-            </li>
-            <li>
-              <a href="${request.route_url('motivation')}">Why do we want to start C3S?</a>
-            </li>
-            <li>
-              <a href="${request.route_url('goals')}">What is C3S trying to become? What not?</a>
-            </li>
-            <li>
-              <a href="${request.route_url('roadmap')}">How is this project being realized?</a>
-            </li>
-            <li>
-              <a href="irc://irc.freenode.net#OpenMusicContest.org">IRC Channel</a>
-            </li>
-            </ul>
+            <li><a href="${request.route_url('definition')}">What is C3S?</a></li>
+            <li><a href="${request.route_url('background')}">Who is doing C3S?</a></li>
+            <li><a href="${request.route_url('motivation')}">Why do we want to start C3S?</a></li>
+            <li><a href="${request.route_url('goals')}">What is C3S trying to become? What not?</a></li>
+            <li><a href="${request.route_url('roadmap')}">How is this project being realized?</a></li>
+            <li><a href="irc://irc.freenode.net#OpenMusicContest.org">IRC Channel</a></li>
+          </ul>
         </div>
       </div>
     </div>
