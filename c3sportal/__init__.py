@@ -15,7 +15,7 @@ def main(global_config, **settings):
     # prepare to use the base template
     config.add_subscriber('c3sportal.subscribers.add_base_template',
                           'pyramid.events.BeforeRender')
-
+    config.add_translation_dirs('c3sportal:locale')
     config.add_route('home', '/')
     config.add_route('definition', '/about')
     config.add_route('background', '/background')
