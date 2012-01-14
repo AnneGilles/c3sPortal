@@ -18,13 +18,13 @@ requires = [
     'lingua',
     ]
 
-if sys.version_info[:3] < (2,5,0):
+if sys.version_info[:3] < (2, 5, 0):
     requires.append('pysqlite')
 
 setup(name='c3sPortal',
       version='0.0',
       description='c3sPortal',
-      long_description=README + '\n\n' +  CHANGES,
+      long_description=README + '\n\n' + CHANGES,
       classifiers=[
         "Programming Language :: Python",
         "Framework :: Pylons",
@@ -43,12 +43,11 @@ setup(name='c3sPortal',
             ('**.pt', 'lingua_xml', None),
             ]},
       test_suite='c3sportal',
-      install_requires = requires,
-      entry_points = """\
+      install_requires=requires,
+      entry_points="""\
       [paste.app_factory]
       main = c3sportal:main
       [console_scripts]
       populate_c3sPortal = c3sportal.scripts.populate:main
       """,
       )
-
