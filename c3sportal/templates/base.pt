@@ -4,12 +4,12 @@
       xmlns:tal="http://xml.zope.org/namespaces/tal"
       xmlns:metal="http://xml.zope.org/namespaces/metal">
   <head>
-    <title>Creative Commons Collecting Society ALPHA</title>
+    <title>Creative Commons Collecting Society</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-    <meta name="keywords" content="creative commons collecting society" />
-    <meta name="description" content="creative commons collecting society" />
+    <meta name="keywords" content="creative commons collecting society c3s" />
+    <meta name="description" content="creative commons collecting society c3s" />
     <tal:block metal:define-slot="head-meta"></tal:block>
-    <link rel="shortcut icon" href="${request.static_url('c3sportal:static/favicon.ico')}" />
+    <link rel="shortcut icon" href="${request.static_url('c3sportal:static/menu_c3s.png')}" />
     <link rel="stylesheet" href="${request.static_url('c3sportal:static/pylons.css')}" type="text/css" media="screen" charset="utf-8" />
     <link rel="stylesheet" href="${request.static_url('c3sportal:static/c3sPortal.css')}" type="text/css" media="screen" charset="utf-8" />
     <!-- link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton|Nobile:regular,i,b,bi&amp;subset=latin"
