@@ -1,0 +1,72 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="c3sPortal"
+      metal:use-macro="base">
+  <tal:block metal:fill-slot="content">
+
+    <h1 i18n:translate="headline-about_C3S">About C3S</h1>
+
+    <a name="definition"></a>
+    <h2 i18n:translate="headline-what_is_C3S">What is C3S?</h2>
+        
+    <p i18n:translate="about-definition-p1">
+      C3S - Creative Commons Collecting Society - is the working title of a project to establish a new European Collecting Society for musical works, especially those works published under a Creative Commons license.
+    </p>
+    <!-- 	Die C3S – Creative Commons Collecting Society – ist eine Initiative zur Gründung einer europäischen Verwertungsgesellschaft für  musikalische Werke, die unter CreativeCommons- und anderen freien Lizenzen veröffentlicht werden. -->
+    
+    <p i18n:translate="about-definition-p2">
+      Once officially approved by the German office for patents and brands (Deutsches Patent- und Markenamt) and other relevant institutions in other countries C3S will be a full-fledged alternative comparing to existing collecting societies for musical works. It will be a one-stop-shop for its members when it comes to work-related contracts and accounting and will be able to take over on behalf of the creators when dealing with licensees.
+    </p>
+    <!-- Nach Zulassung durch das <strong>Deutsche Patent- und Markenamt</strong> wird die C3S eine vollwertige Alternative zu bestehenden Verwertungsgesellschaften für Musik bieten. Sie wird ihre Mitglieder als zentraler Ansprech-, Vertrags- und Abrechnungspartner gegenüber Lizenznehmern vertreten." -->
+    
+    <p i18n:translate="about-definition-p3"> 
+      Grundlegend für unsere Tätigkeit ist die Förderung der Verbreitung von CreativeCommons-Lizenzen durch Beratung, Workshops, Vorträge und Öffentlichkeitsarbeit. Darüber hinaus  unterstützen wir kulturelle Projekte, die die Arbeit von nicht-etablierten und Nachwuchskünstlern nachhaltig erleichtern und fördern.
+    </p>
+
+    <a name="background"></a>
+    <h2 i18n:translate="headline-about-team">The Team - Who is behind C3S?</h2>
+
+    <p i18n:translate="about-background-p1">
+      C3S consists of a group of people that initiated the project and a growing number of active supporters helping and counseling.
+      </p>
+
+    <p i18n:translate="about-background-p2">
+      Formally C3S is a project of OpenMusicContest.org e.V (a non-profit association) in coordination with other independent persons. You can read up on why we decided to choose this path here.
+      <p>
+	
+      <p>
+	TODO: translate this to english!
+	
+	Als Vertreter verschiedener Interessengruppen und Disziplinen bringen die einzelnen Team-Mitglieder, gleichgültig ob Supporter oder Initiator, individuelle und sich ergänzende Perspektiven ein. Wir möchten die Interessen und die Kompetenz all derer berücksichtigen, die gemeinsam dazu beitragen können, unabhängigen Künstlern bzw. Urhebern eine bessere Position in der Musikwirtschaft zu verschaffen. Das ist grundlegend für den Aufbau einer Verwertungsgesellschaft, die der digitalen Gesellschaft gerecht wird – es braucht Komponisten und Texter, Musiker, Nutzer, aber auch Juristen, Wirtschaftsvertreter, Entwickler und Netzaktivisten, um nur einen Ausschnitt zu nennen.
+	Die C3S ist offen für Feedback und konstruktive Kritik. Dies ist zentraler Bestandteil des Konzepts einer gemeinsam zu formenden Verwertungsgesellschaft. Vor allem aber benötigen wir Eure Unterstützung. Wer sich aktiv bei der C3S beteiligen oder sie unterstützen möchte, findet auf der Support-Seite (Link) verschiedene Möglichkeiten – wir freuen uns auf Euch!
+      </p>
+
+    <a name="motivation"></a>
+    <h2 i18n:translate="headline-about-motivation">The Motivation - Why another collecting society?</h2>
+
+    <p>text, <br /> text, <br /> text, <br /> ... TODO</p>
+
+    <a name="goals"></a>
+    <h2 i18n:translate="headline-about-goals">The Goals - What is C3S aiming at?</h2>
+
+    <p>text, <br /> text, <br /> text, <br /> ... TODO</p>
+
+    <a name="funding"></a>
+    <h2 i18n:translate="headline-about-funding">The Funding - How to organize and fund the project?</h2>
+
+    <p>text, <br /> text, <br /> text, <br /> ... TODO</p>
+
+    <a name="roadmap"></a>
+    <h2 i18n:translate="headline-about-roadmap">The Roadmap - How to get things going?</h2>
+
+    <p>text, <br /> text, <br /> text, <br /> ... TODO</p>
+
+    <a name="rules">foo</a>
+    <h2 i18n:translate="headline-about-rules">The Rules - What are the principals we adhere to?</h2>
+
+    <p>text, <br /> text, <br /> text, <br /> ... TODO</p>
+    
+  </tal:block>
+</html>
