@@ -4,12 +4,57 @@
       xmlns:i18n="http://xml.zope.org/namespaces/i18n"
       i18n:domain="c3sPortal"
       metal:use-macro="base">
-  <tal:block metal:fill-slot="content"> 
-    <h1 i18n:translate="sample_headline">a headline</h1>
-    <div i18n:translate="">
-      <p>
-	text goes here
+  <tal:block metal:fill-slot="content">     
+    <div id="middle">
+      <div class="middle align-center">
+        <p class="app-welcome" i18n:translate="c3s-welcome-definition">
+          Welcome to <strong i18n:name="C3S">C3S</strong>, a new Collecting Society being booted up.
+        </p>
+        <p i18n:translate="c3s-short-explanation">C3S is an abbreviation for <strong i18n:name="CreativeCommonsCollectingSociety">Creative Commons Collecting Society</strong></p>
+      </div>
+    </div>
+    <h1 i18n:translate="headline_about">What is C3S?</h1>
+    <div>
+      <p i18n:translate="">
+	C3S -- an abbreviation for Creative Commons Collecting Society -- is a new upcoming European collecting society
+        for Artists and Bands to register their works: music released under Creative Commons and other free licenses.
       </p>
-    </div>    
+      <p i18n:translate="">
+	We expect the delivery of application to offlically become a registered 
+	and approved collecting society to happen at the end of 2012.
+      </p>
+      
+      <div class="row">
+        <div class="span10">
+	  <h2 i18n:translate="headline_goals">Goals</h2>
+	  <ul>
+	    <li i18n:translate="">equal rights (co-determination) for all members</li>
+	    <li i18n:translate="">revenue generation for musicians using alternative licensing schemes</li>
+	    <li i18n:translate="">free and legal usage of music in non-commercial contexts</li>
+	    <li i18n:translate="">royalites based on works published (1:1)</li>
+	    <li i18n:translate="">collect royalties only for works chosen by the artists</li>
+	    <li i18n:translate="">reach 100% payout of royalties</li>
+	    <li i18n:translate="">transparency</li>
+	    <li i18n:translate="">promotion of culture</li>
+	  </ul>
+	</div>
+	<div id="span6">
+          <h2 i18n:translate="">About C3S</h2>
+          <ul class="links">
+            <li><a href="${request.route_url('about') + '#definition'}" 
+		   i18n:translate="">What is C3S?</a></li>
+            <li><a href="${request.route_url('about') + '#background'}" 
+		   i18n:translate="">Who is doing C3S?</a></li>
+            <li><a href="${request.route_url('about') + '#motivation'}" 
+		   i18n:translate="">Why do we want to start C3S?</a></li>
+            <li><a href="${request.route_url('about') + '#goals'}" 
+		   i18n:translate="">What is C3S trying to become? What not?</a></li>
+            <li><a href="${request.route_url('about') + '#roadmap'}" 
+		   i18n:translate="">How is this project being realized?</a></li>
+            <li><a href="irc://irc.freenode.net#OpenMusicContest.org" 
+		   i18n:translate="">IRC Channel</a></li>
+          </ul>
+	</div>
+      </div>
   </tal:block>
 </html>

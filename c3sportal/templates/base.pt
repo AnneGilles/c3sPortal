@@ -10,32 +10,100 @@
     <meta name="description" content="creative commons collecting society c3s" />
     <tal:block metal:define-slot="head-meta"></tal:block>
     <link rel="shortcut icon" href="${request.static_url('c3sportal:static/menu_c3s.png')}" />
-    <link rel="stylesheet" href="${request.static_url('c3sportal:static/pylons.css')}" type="text/css" media="screen" charset="utf-8" />
+    <!-- link rel="stylesheet" href="${request.static_url('c3sportal:static/pylons.css')}" type="text/css" media="screen" charset="utf-8" / -->
     <link rel="stylesheet" href="${request.static_url('c3sportal:static/c3sPortal.css')}" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="${request.static_url('c3sportal:static/bootstrap.css')}" type="text/css" media="screen" charset="utf-8" />
+    <script type="text/javascript" src="/static/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/1.4.0/bootstrap-dropdown.js"></script>
+    <style type="text/css">
+      body {
+      padding-top: 60px;
+      }
+    </style>
     <!-- link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton|Nobile:regular,i,b,bi&amp;subset=latin"
-	  type="text/css" media="screen" charset="utf-8" / -->
+	 type="text/css" media="screen" charset="utf-8" / -->
     <!--[if lte IE 6]>
 	<link rel="stylesheet" href="${request.static_url('c3sportal:static/ie6.css')}" type="text/css" media="screen" charset="utf-8" />
 	<![endif]-->
   </head>
   <body>
-    <div id="wrap">
-      <div id="top">
-	<div class="top align-center">
-          <div>
-	    <a href="${request.route_url('home')}"> <!-- width 750, height 169 -->
-	      <img src="${request.static_url('c3sportal:static/c3s-logo.png')}" width="375" height="83" alt="c3s"/>
-	    </a>
+    <div class="topbar"><!--! topbar: the black bar at the top -->
+      <div class="topbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="/">C3S</a>
+          <ul class="nav">
+            <li class="active"><a href="/" i18n:translate="home">Home</a></li>
+            <li><a href="http://blog.c-3-s.org" target="_blog">Blog</a></li>
+	    <li class="dropdown" data-dropdown="dropdown">
+              <a href="/about" class="dropdown-toggle" i18n:translate="">About</a>
+              <ul class="dropdown-menu">
+                <li><a href="/about#definition">The Essentials -- What is the C3S?</a></li>
+                <li><a href="/about#background">The Team - Who is behind C3S?</a></li>
+                <li><a href="/about#motivation">The Motivation - Why another collecting society?</a></li>
+                <li><a href="/about#goals">The Goals - What is C3S aiming at?</a></li>
+                <li><a href="/about#funding">The Funding - How to organize and fund the project?</a></li>
+                <li><a href="/about#roadmap">The Roadmap - How to get things going?</a></li>
+                <li><a href="/about#rules">The Rules - What are the principals we adhere to?</a></li>
+              </ul>
+            </li>
+            <li><a href="/contact" i18n:translate="">Contact</a></li>
+	    <li class="dropdown" data-dropdown="dropdown">
+              <a href="/about" class="dropdown-toggle" i18n:translate="">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Secondary link</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Another link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- p class="pull-right">Logged in as <a href="#">username</a></p -->
+        </div>
+      </div>
+    </div><!--! end topbar -->
+    <div class="container-fluid"><!--! container-fluid -->
+      <div class="sidebar">
+        <div class="well">
+          <h5 i18n:translate="sidebar-support-C3S">Support C3S</h5>
+          <ul>
+            <li><a href="#">Flattr</a></li>
+            <li><a href="#" i18n:translate="sidebar-donate">Donate</a></li>
+            <li><a href="#" i18n:translate="sidebar-join">Join the team</a></li>
+            <li><a href="#" i18n:translate="sidebar-omc-membership">OMC Membership</a></li>
+          </ul>
+          <h5 i18n:translate="sidebar-upcoming-events">Upcoming Events</h5>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+          <h5>Sidebar</h5>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </div><!--! end well -->
+      </div><!--! end sidebar -->
+      <div class="content">
+	<!-- div id="wrap" -->
+	<div id="top">
+	  <div class="top align-center">
+            <div>
+	      <a href="${request.route_url('home')}"> <!-- width 750, height 169 -->
+		<img src="${request.static_url('c3sportal:static/c3s-logo.png')}" width="375" height="83" alt="c3s"/>
+	      </a>
+	    </div>
 	  </div>
 	</div>
+	<div id="stage">
+	  <tal:block metal:define-slot="content"></tal:block>
+	</div>
       </div>
-      <div id="stage">
-      <tal:block metal:define-slot="content"></tal:block>
-      </div>
-    </div>
-    <div>
     </div>
     <div tal:replace="structure footer" />
   </body>
 </html>
-
+  

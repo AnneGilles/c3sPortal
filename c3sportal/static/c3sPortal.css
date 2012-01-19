@@ -1,14 +1,26 @@
 #body {
-    width: 800px;
+    width: 940px; //800px;
 }
 
-#top{color:#000000;height:130px;background:#ffffff url(headerbg.png) repeat-x 0 top;position:relative;}
-.top{padding-top:20px;}
+#top {
+    color:#000000;
+    height:130px;
+    //background:#ffffff url(headerbg.png) repeat-x 0 top;
+    position:relative;
+}
+.top {
+    padding-top:20px;
+}
 
 #stage {
   margin-left:20px;
   min-height: 300px;
 }
+
+#footer{bottom:0;background:#000000 url(footerbg.png) repeat-x 0 top;position:relative;clear:both;}
+.header,.footer{margin-right:auto;margin-left:auto;}
+.wrapper{width:100%}
+
 
 /* ************************************************************************ */
 /* footer css ripped shamelessly from plone.org */	
@@ -18,7 +30,7 @@
     margin-left:20px;
 }
 #footer-gradient {
-    background: top left url(//plone.org/images/sprite-ploneorg.png) repeat-x;
+//    background: top left url(//plone.org/images/sprite-ploneorg.png) repeat-x;
     height: 17px;
 }
 #push {

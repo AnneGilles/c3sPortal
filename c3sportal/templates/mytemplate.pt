@@ -23,9 +23,9 @@
     <div id="middle">
       <div class="middle align-center">
         <p class="app-welcome" i18n:translate="c3s-welcome-definition">
-          Welcome to <strong>C3S</strong>, a new Collecting Society being booted up.
+          Welcome to <strong i1 8n:name="C3S">C3S</strong>, a new Collecting Society being booted up.
         </p>
-	<p i18n:translate="c3s-short-explanation">C3S is an abbreviation for <strong>Creative Commons Collecting Society</strong></p>
+	<p i18n:translate="c3s-short-explanation">C3S is an abbreviation for <strong i18n:name="Creative Commons Collecting Society">Creative Commons Collecting Society</strong></p>
       </div>
     </div>
     <div id="bottom">
@@ -52,7 +52,7 @@
     </div>
   </div>
   <div id="footer">
-    <div class="footer">&copy; Copyright 2008-2011, Agendaless Consulting.</div>
+    <div class="footer">&copy; Copyright 2008-2011, <strong i18n:translate="C3S">C3S</strong></div>
   </div>
 </body>
 </html>
