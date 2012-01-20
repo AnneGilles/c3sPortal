@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-20 12:17+0100\n"
+"POT-Creation-Date: 2012-01-20 12:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,6 +165,11 @@ msgstr ""
 #. Default: Upcoming Events
 #: c3sportal/templates/base.pt:74
 msgid "sidebar-upcoming-events"
+msgstr ""
+
+#. Default: Link
+#: c3sportal/templates/base.pt:79
+msgid "link"
 msgstr ""
 
 #. Default: C3S -- transparent -- fair -- democratized
