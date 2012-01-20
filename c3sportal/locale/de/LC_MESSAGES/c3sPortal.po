@@ -1,41 +1,45 @@
-# German translations for c3sPortal.
+# Translations template for c3sPortal.
 # Copyright (C) 2012 ORGANIZATION
 # This file is distributed under the same license as the c3sPortal project.
+# 
+# Translators:
+#   <a@shri.de>, 2012.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: c3sPortal 0.0\n"
+"Project-Id-Version: c3sPortal\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-18 14:46+0100\n"
-"PO-Revision-Date: 2012-01-18 14:45+0100\n"
-"Last-Translator: Christoph Scheid <c@shri.de>\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2012-01-20 12:17+0100\n"
+"PO-Revision-Date: 2012-01-20 11:44+0000\n"
+"Last-Translator: AnneGilles <a@shri.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. Default: About C3S
 #: c3sportal/templates/about.pt:9
-#, fuzzy
-#| msgid "headline_about"
 msgid "headline-about_C3S"
-msgstr "Was ist die C3S?"
+msgstr "Das Wichtigste -- Was ist die C3S?"
 
 #. Default: What is C3S?
-#: c3sportal/templates/about.pt:12 c3sportal/templates/definition.pt:7
+#: c3sportal/templates/about.pt:12
 msgid "headline-what_is_C3S"
 msgstr "Was ist die C3S?"
 
-#. Default: C3S - Creative Commons Collecting Society - is the working title of
-#. a
+#. Default: C3S - Creative Commons Collecting Society - is the working title
+#. of a
 #. project to establish a new European Collecting Society for musical works,
 #. especially those works published under a Creative Commons license.
 #: c3sportal/templates/about.pt:14
 msgid "about-definition-p1"
 msgstr ""
+"Die C3S – Creative Commons Collecting Society – ist eine Initiative zur "
+"Gründung einer europäischen Verwertungsgesellschaft für Musikstücke, die "
+"unter Creative Commons und anderen freien Lizenzen veröffentlicht werden."
 
 #. Default: Once officially approved by the German office for patents and
 #. brands
@@ -48,6 +52,9 @@ msgstr ""
 #: c3sportal/templates/about.pt:19
 msgid "about-definition-p2"
 msgstr ""
+"Die C3S – Creative Commons Collecting Society – ist eine Initiative zur "
+"Gründung einer europäischen Verwertungsgesellschaft für Musikstücke, die "
+"unter CreativeCommons- und anderen freien Lizenzen veröffentlicht werden."
 
 #. Default: Grundlegend für unsere Tätigkeit ist die Förderung der Verbreitung
 #. von
@@ -60,60 +67,49 @@ msgstr ""
 #: c3sportal/templates/about.pt:24
 msgid "about-definition-p3"
 msgstr ""
+"Grundlegend für unsere Tätigkeit ist die Förderung der Verbreitung von "
+"Creative Commons Lizenzen durch Beratung, Workshops, Vorträge und "
+"Öffentlichkeitsarbeit. Darüber hinaus  unterstützen wir kulturelle Projekte,"
+" die die Arbeit von nicht-etablierten und Nachwuchskünstlern nachhaltig "
+"erleichtern und fördern."
 
 #. Default: The Team - Who is behind C3S?
 #: c3sportal/templates/about.pt:29
-#, fuzzy
-#| msgid "headline_about"
 msgid "headline-about-team"
-msgstr "Was ist die C3S?"
+msgstr "Das Team -- Wer steckt hinter der C3S?"
 
 #. Default: C3S consists of a group of people that initiated the project and a
 #. growing number of active supporters helping and counseling.
 #: c3sportal/templates/about.pt:31
-#, fuzzy
-#| msgid "background-link"
 msgid "about-background-p1"
-msgstr "Hintergrund"
+msgstr ""
+"Die C3S besteht aus dem Kreis der Initiatoren und einer stetig wachsenden "
+"Anzahl von aktiven Supportern, die uns unterstützen und beraten."
 
 #. Default: The Motivation - Why another collecting society?
 #: c3sportal/templates/about.pt:47
-#, fuzzy
-#| msgid "headline_about"
 msgid "headline-about-motivation"
-msgstr "Was ist die C3S?"
+msgstr "Die Motivation - Warum noch eine Verwertungsgesellschaft?"
 
 #. Default: The Goals - What is C3S aiming at?
 #: c3sportal/templates/about.pt:52
-#, fuzzy
-#| msgid "headline_goals"
 msgid "headline-about-goals"
-msgstr "Ziele"
+msgstr "Die Ziele - Was strebt die C3S an?"
 
 #. Default: The Funding - How to organize and fund the project?
 #: c3sportal/templates/about.pt:57
-#, fuzzy
-#| msgid "headline_about"
 msgid "headline-about-funding"
-msgstr "Was ist die C3S?"
+msgstr "Die Finanzierung - Wie wird das Project finanziert?"
 
 #. Default: The Roadmap - How to get things going?
 #: c3sportal/templates/about.pt:62
-#, fuzzy
-#| msgid "headline_about"
 msgid "headline-about-roadmap"
-msgstr "Was ist die C3S?"
+msgstr "Die Roadmap - Wie kommt das Projekt an den Start?"
 
 #. Default: The Rules - What are the principals we adhere to?
 #: c3sportal/templates/about.pt:67
-#, fuzzy
-#| msgid "headline_about"
 msgid "headline-about-rules"
-msgstr "Was ist die C3S?"
-
-#: c3sportal/templates/background.pt:8
-msgid "heading"
-msgstr "Überschrift"
+msgstr "Die Regeln - C3S?"
 
 #. Default: Home
 #: c3sportal/templates/base.pt:35
@@ -124,24 +120,74 @@ msgstr "Start"
 msgid "About"
 msgstr "Über"
 
+#. Default: The Essentials -- What is the C3S?
+#: c3sportal/templates/base.pt:40
+msgid "dropdown-about-definition"
+msgstr "Definition -- Was ist die C3S?"
+
+#. Default: The Team - Who is behind C3S?
+#: c3sportal/templates/base.pt:41
+msgid "dropdown-about-background"
+msgstr "Das Team - Wer steht hinter der C3S?"
+
+#. Default: The Motivation - Why another collecting society?
+#: c3sportal/templates/base.pt:42
+msgid "dropdown-about-motivation"
+msgstr "Die Motivation - Warum noch eine Verwertungsgesellschaft?"
+
+#. Default: The Goals - What is C3S aiming at?
+#: c3sportal/templates/base.pt:43
+msgid "dropdown-about-goals"
+msgstr "Ziele - Was strebt die C3S an? Was nicht"
+
+#. Default: The Funding - How to organize and fund the project?
+#: c3sportal/templates/base.pt:44
+msgid "dropdown-about-funding"
+msgstr "Wie wird das Projekt organisiert und finanziert?"
+
+#. Default: The Roadmap - How to get things going?
+#: c3sportal/templates/base.pt:45
+msgid "dropdown-about-roadmap"
+msgstr "Wie realisieren wir das Project?"
+
+#. Default: The Rules - What are the principals we adhere to?
+#: c3sportal/templates/base.pt:46
+msgid "dropdown-about-rules"
+msgstr "Leitsätze"
+
+#. Default: Contact
 #: c3sportal/templates/base.pt:49
-msgid "Contact"
+msgid "menu-contact"
 msgstr "Kontakt"
 
 #: c3sportal/templates/base.pt:51
 msgid "Dropdown"
-msgstr ""
+msgstr "Ausklappmenü"
 
-#: c3sportal/templates/definition.pt:10
-msgid ""
-"C3S - Creative Commons Collecting Society - is the working title of "
-"project to establish a new European Collecting Society for musical works,"
-" especially those works published under a Creative Commons license."
-msgstr ""
-"Die C3S – Creative Commons Collecting Society – ist eine Initiative zur "
-"Gründung einer europäischen Verwertungsgesellschaft für  musikalische "
-"Werke, die unter Creative Commons- und anderen freien Lizenzen "
-"veröffentlicht werden."
+#. Default: Support C3S
+#: c3sportal/templates/base.pt:67
+msgid "sidebar-support-C3S"
+msgstr "C3S unterstützen"
+
+#. Default: Donate
+#: c3sportal/templates/base.pt:70
+msgid "sidebar-donate"
+msgstr "Spenden"
+
+#. Default: Join the team
+#: c3sportal/templates/base.pt:71
+msgid "sidebar-join"
+msgstr "Mitmachen"
+
+#. Default: OMC Membership
+#: c3sportal/templates/base.pt:72
+msgid "sidebar-omc-membership"
+msgstr "OMC Mitgliedschaft"
+
+#. Default: Upcoming Events
+#: c3sportal/templates/base.pt:74
+msgid "sidebar-upcoming-events"
+msgstr "Termine"
 
 #. Default: C3S -- transparent -- fair -- democratized
 #: c3sportal/templates/footer.pt:14
@@ -230,8 +276,7 @@ msgstr "Impressum/Disclaimer"
 #: c3sportal/templates/home.pt:10
 msgid "c3s-welcome-definition"
 msgstr ""
-"Willkommen bei der ${C3S}, einer neuen Verwertungsgesellschaft in "
-"Gründung."
+"Willkommen bei der ${C3S}, einer neuen Verwertungsgesellschaft in Gründung."
 
 #. Default: C3S is an abbreviation for ${CreativeCommonsCollectingSociety}
 #: c3sportal/templates/home.pt:13
@@ -245,10 +290,9 @@ msgstr "Was ist die C3S?"
 
 #: c3sportal/templates/home.pt:18
 msgid ""
-"C3S -- an abbreviation for Creative Commons Collecting Society -- is a "
-"new upcoming European collecting society for Artists and Bands to "
-"register their works: music released under Creative Commons and other "
-"free licenses."
+"C3S -- an abbreviation for Creative Commons Collecting Society -- is a new "
+"upcoming European collecting society for Artists and Bands to register their"
+" works: music released under Creative Commons and other free licenses."
 msgstr ""
 "Die C3S – Creative Commons Collecting Society – ist eine Initiative zur "
 "Gründung einer europäischen Verwertungsgesellschaft für Musikstücke, die "
@@ -256,8 +300,8 @@ msgstr ""
 
 #: c3sportal/templates/home.pt:22
 msgid ""
-"We expect the delivery of application to offlically become a registered "
-"and approved collecting society to happen at the end of 2012."
+"We expect the delivery of application to offlically become a registered and "
+"approved collecting society to happen at the end of 2012."
 msgstr ""
 "Die Antragstellung zur Zulassung als Verwertungsgesellschaft erfolgt "
 "voraussichtlich im Herbst 2012."
@@ -307,6 +351,4 @@ msgstr "Über die C3S"
 msgid "IRC Channel"
 msgstr "IRC Chat"
 
-#~ msgid "about_headline"
-#~ msgstr "Über die C3S"
 

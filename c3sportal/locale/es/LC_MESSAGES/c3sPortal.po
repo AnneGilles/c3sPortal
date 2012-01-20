@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-18 14:46+0100\n"
+"POT-Creation-Date: 2012-01-20 12:17+0100\n"
 "PO-Revision-Date: 2012-01-12 15:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "headline-about_C3S"
 msgstr ""
 
 #. Default: What is C3S?
-#: c3sportal/templates/about.pt:12 c3sportal/templates/definition.pt:7
+#: c3sportal/templates/about.pt:12
 msgid "headline-what_is_C3S"
 msgstr ""
 
@@ -95,10 +95,6 @@ msgstr ""
 msgid "headline-about-rules"
 msgstr ""
 
-#: c3sportal/templates/background.pt:8
-msgid "heading"
-msgstr ""
-
 #. Default: Home
 #: c3sportal/templates/base.pt:35
 msgid "home"
@@ -108,19 +104,73 @@ msgstr ""
 msgid "About"
 msgstr ""
 
+#. Default: The Essentials -- What is the C3S?
+#: c3sportal/templates/base.pt:40
+msgid "dropdown-about-definition"
+msgstr ""
+
+#. Default: The Team - Who is behind C3S?
+#: c3sportal/templates/base.pt:41
+msgid "dropdown-about-background"
+msgstr ""
+
+#. Default: The Motivation - Why another collecting society?
+#: c3sportal/templates/base.pt:42
+msgid "dropdown-about-motivation"
+msgstr ""
+
+#. Default: The Goals - What is C3S aiming at?
+#: c3sportal/templates/base.pt:43
+msgid "dropdown-about-goals"
+msgstr ""
+
+#. Default: The Funding - How to organize and fund the project?
+#: c3sportal/templates/base.pt:44
+msgid "dropdown-about-funding"
+msgstr ""
+
+#. Default: The Roadmap - How to get things going?
+#: c3sportal/templates/base.pt:45
+msgid "dropdown-about-roadmap"
+msgstr ""
+
+#. Default: The Rules - What are the principals we adhere to?
+#: c3sportal/templates/base.pt:46
+msgid "dropdown-about-rules"
+msgstr ""
+
+#. Default: Contact
 #: c3sportal/templates/base.pt:49
-msgid "Contact"
+msgid "menu-contact"
 msgstr ""
 
 #: c3sportal/templates/base.pt:51
 msgid "Dropdown"
 msgstr ""
 
-#: c3sportal/templates/definition.pt:10
-msgid ""
-"C3S - Creative Commons Collecting Society - is the working title of "
-"project to establish a new European Collecting Society for musical works,"
-" especially those works published under a Creative Commons license."
+#. Default: Support C3S
+#: c3sportal/templates/base.pt:67
+msgid "sidebar-support-C3S"
+msgstr ""
+
+#. Default: Donate
+#: c3sportal/templates/base.pt:70
+msgid "sidebar-donate"
+msgstr ""
+
+#. Default: Join the team
+#: c3sportal/templates/base.pt:71
+msgid "sidebar-join"
+msgstr ""
+
+#. Default: OMC Membership
+#: c3sportal/templates/base.pt:72
+msgid "sidebar-omc-membership"
+msgstr ""
+
+#. Default: Upcoming Events
+#: c3sportal/templates/base.pt:74
+msgid "sidebar-upcoming-events"
 msgstr ""
 
 #. Default: C3S -- transparent -- fair -- democratized
