@@ -37,16 +37,16 @@
 	    <li class="dropdown" data-dropdown="dropdown">
               <a href="/about" class="dropdown-toggle" i18n:translate="">About</a>
               <ul class="dropdown-menu">
-                <li><a href="/about#definition">The Essentials -- What is the C3S?</a></li>
-                <li><a href="/about#background">The Team - Who is behind C3S?</a></li>
-                <li><a href="/about#motivation">The Motivation - Why another collecting society?</a></li>
-                <li><a href="/about#goals">The Goals - What is C3S aiming at?</a></li>
-                <li><a href="/about#funding">The Funding - How to organize and fund the project?</a></li>
-                <li><a href="/about#roadmap">The Roadmap - How to get things going?</a></li>
-                <li><a href="/about#rules">The Rules - What are the principals we adhere to?</a></li>
+                <li><a href="/about#definition" i18n:translate="dropdown-about-definition">The Essentials -- What is the C3S?</a></li>
+                <li><a href="/about#background" i18n:translate="dropdown-about-background">The Team - Who is behind C3S?</a></li>
+                <li><a href="/about#motivation" i18n:translate="dropdown-about-motivation">The Motivation - Why another collecting society?</a></li>
+                <li><a href="/about#goals" i18n:translate="dropdown-about-goals">The Goals - What is C3S aiming at?</a></li>
+                <li><a href="/about#funding" i18n:translate="dropdown-about-funding">The Funding - How to organize and fund the project?</a></li>
+                <li><a href="/about#roadmap" i18n:translate="dropdown-about-roadmap">The Roadmap - How to get things going?</a></li>
+                <li><a href="/about#rules" i18n:translate="dropdown-about-rules">The Rules - What are the principals we adhere to?</a></li>
               </ul>
             </li>
-            <li><a href="/contact" i18n:translate="">Contact</a></li>
+            <li><a href="/contact" i18n:translate="menu-contact">Contact</a></li>
 	    <li class="dropdown" data-dropdown="dropdown">
               <a href="/about" class="dropdown-toggle" i18n:translate="">Dropdown</a>
               <ul class="dropdown-menu">
