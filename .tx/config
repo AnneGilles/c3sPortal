@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.net
+
+[c3sPortal.POT]
+file_filter = c3sportal/locale/<lang>/LC_MESSAGES/c3sPortal.po
+source_file = c3sportal/locale/c3sPortal.pot
+source_lang = en
+trans.de = c3sportal/locale/de/LC_MESSAGES/c3sPortal.po
+type = PO
+
