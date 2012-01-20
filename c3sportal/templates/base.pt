@@ -46,6 +46,24 @@
                 <li><a href="/about#rules" i18n:translate="dropdown-about-rules">The Rules - What are the principals we adhere to?</a></li>
               </ul>
             </li>
+	    <li class="dropdown" data-dropdown="dropdown">
+              <a href="/about" class="dropdown-toggle" i18n:translate="menu-dropdown-support">Support</a>
+              <ul class="dropdown-menu">
+                <li><a href="/support#register" i18n:translate="dropdown-support-register">Register</a></li>
+                <li><a href="/support#team" i18n:translate="dropdown-support-team">Join the team</a></li>
+                <li><a href="/support#" i18n:translate="dropdown-support-"></a></li>
+                <li><a href="/support#" i18n:translate="dropdown-support-"></a></li>
+                <li><a href="/support#" i18n:translate="dropdown-support-"></a></li>
+                <li><a href="/support#" i18n:translate="dropdown-support-"></a></li>
+                <li><a href="/support#" i18n:translate="dropdown-support-"></a></li>
+              </ul>
+            </li>
+	    <li class="dropdown" data-dropdown="dropdown">
+              <a href="/faq" class="dropdown-toggle" i18n:translate="menu-dropdown-knowledgebase">KnowledgeBase</a>
+              <ul class="dropdown-menu">
+                <li><a href="/faq#" i18n:translate="dropdown-knowledgebase-">foo</a></li>
+              </ul>
+            </li>
             <li><a href="/contact" i18n:translate="menu-contact">Contact</a></li>
 	    <li class="dropdown" data-dropdown="dropdown">
               <a href="/about" class="dropdown-toggle" i18n:translate="">Dropdown</a>
@@ -66,10 +84,14 @@
         <div class="well">
           <h5 i18n:translate="sidebar-support-C3S">Support C3S</h5>
           <ul>
-            <li><a href="#">Flattr</a></li>
-            <li><a href="#" i18n:translate="sidebar-donate">Donate</a></li>
-            <li><a href="#" i18n:translate="sidebar-join">Join the team</a></li>
-            <li><a href="#" i18n:translate="sidebar-omc-membership">OMC Membership</a></li>
+            <li><a href="/support#feedback#" 
+		   i18n:translate="sidebar-feedback">Feedback</a></li>
+            <li><a href="/support#donate" 
+		   i18n:translate="sidebar-donate">Donate</a></li>
+            <li><a href="/support#join-the-team#" 
+		   i18n:translate="sidebar-join">Join the team</a></li>
+            <li><a href="/support#omc-membership#" 
+		   i18n:translate="sidebar-omc-membership">OMC Membership</a></li>
           </ul>
           <h5 i18n:translate="sidebar-upcoming-events">Upcoming Events</h5>
           <ul>
