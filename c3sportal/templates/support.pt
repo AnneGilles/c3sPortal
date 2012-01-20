@@ -1,0 +1,80 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="c3sPortal"
+      metal:use-macro="base">
+  <tal:block metal:fill-slot="content">
+    
+    <h1 i18n:translate="headline-support_C3S">Support C3S</h1>
+    
+    <a name="register"></a>
+    <h2 i18n:translate="headline-register">Register your works with C3S</h2>
+    
+    <p i18n:translate="support-register-p1">
+      A collection society can not work without a repertoire. If you think C3S is a good idea and you would like to become member of the C3S, please <a href="/register" i18n:name="register-here" >register here</a>.
+    </p>
+    
+    <p i18n:translate="support-register-p2">
+      
+    </p>
+    
+    <p i18n:translate="support-register-p3"> 
+      
+    </p>
+    
+    <a name="team"></a>
+    <h2 i18n:translate="headline-support-team">Join The Team!</h2>
+    
+    <p i18n:translate="support-team-p1">
+      C3S consists of a group of people that initiated the project and a growing number of active supporters helping and counseling. If you have some ideas how to help, whatever it may be, please get in contact. 
+    </p>
+    
+    <p i18n:translate="support-team-p2">
+    <p>
+      
+    <p i18n:translate="support-team-p3">
+    </p>  
+
+      
+    <a name="feedback"></a>
+    <h2 i18n:translate="headline-support-feedback">Give Feedback</h2>
+
+    <p>text, <br /> text, <br /> text, <br /> ... TODO</p>
+
+
+    <a name="translate"></a>
+    <h2 i18n:translate="headline-support-translate">Help us translate</h2>
+
+    <p i18n:translate="support-translate-p1">
+      This project makes an effort to establish a European collecting society and thus needs to present information in different languages. We would like to cover all languages, starting with the European ones! If this page is not automatically translated to your language, we are probably missing a translation.  
+    </p>
+
+    <p>
+      <div class="pull-right" style="padding: 0 40px 0 0;">
+	<a target="_transifex" style="text-decoration:none; color:white; font-size:66%" 
+	   href="https://www.transifex.net/projects/p/c3sPortal/resource/POT/" 
+	   title="Help translate on transifex.net! c3sPortal » POT">
+	  <img border="0" 
+	       src="https://www.transifex.net/projects/p/c3sPortal/resource/POT/chart/image_png"/></a>
+      </div>
+    </p>
+
+    <p i18n:translate="support-translate-p2">
+      Please register over at Transifex and help by translating the texts to your language.
+    </p>
+
+    <p><a href="https://www.transifex.net/projects/p/c3sPortal/resource/POT/" target="_transifex">c3sPortal/POT</a>
+      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+      <script type="text/javascript" src="https://www.transifex.net/projects/p/c3sPortal/resource/POT/chart/inc_js/"></script>
+      <div id="transifex_chart">Loading chart...</div>
+    </p>
+    <!--! dummy for new sections
+    <a name="dummy"></a>
+    <h2 i18n:translate="headline-support-summy">Dummy</h2>
+    
+    <p i18n:translate="support-dummy-p1">dummy text, TODO</p>
+    -->
+    
+  </tal:block>
+</html>
