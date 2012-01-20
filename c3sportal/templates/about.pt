@@ -36,13 +36,14 @@
       Formally C3S is a project of OpenMusicContest.org e.V (a non-profit association) in coordination with other independent persons. You can read up on why we decided to choose this path here.
       <p>
 	
-      <p>
-	TODO: translate this to english!
-	
-	Als Vertreter verschiedener Interessengruppen und Disziplinen bringen die einzelnen Team-Mitglieder, gleichgültig ob Supporter oder Initiator, individuelle und sich ergänzende Perspektiven ein. Wir möchten die Interessen und die Kompetenz all derer berücksichtigen, die gemeinsam dazu beitragen können, unabhängigen Künstlern bzw. Urhebern eine bessere Position in der Musikwirtschaft zu verschaffen. Das ist grundlegend für den Aufbau einer Verwertungsgesellschaft, die der digitalen Gesellschaft gerecht wird – es braucht Komponisten und Texter, Musiker, Nutzer, aber auch Juristen, Wirtschaftsvertreter, Entwickler und Netzaktivisten, um nur einen Ausschnitt zu nennen.
-	Die C3S ist offen für Feedback und konstruktive Kritik. Dies ist zentraler Bestandteil des Konzepts einer gemeinsam zu formenden Verwertungsgesellschaft. Vor allem aber benötigen wir Eure Unterstützung. Wer sich aktiv bei der C3S beteiligen oder sie unterstützen möchte, findet auf der Support-Seite (Link) verschiedene Möglichkeiten – wir freuen uns auf Euch!
-      </p>
-
+      <p i18n:translate="about-background-p3">
+	The team members represent a wide spectrum of interests and disciplines and each add their perspective and view of different aspects. We want to include all possible intentions and competences of people who want to add to this project, TODO...
+      </p>  
+      <!--	Als Vertreter verschiedener Interessengruppen und Disziplinen bringen die einzelnen Team-Mitglieder, gleichgültig ob Supporter oder Initiator, individuelle und sich ergänzende Perspektiven ein. Wir möchten die Interessen und die Kompetenz all derer berücksichtigen, die gemeinsam dazu beitragen können, unabhängigen Künstlern bzw. Urhebern eine bessere Position in der Musikwirtschaft zu verschaffen. Das ist grundlegend für den Aufbau einer Verwertungsgesellschaft, die der digitalen Gesellschaft gerecht wird – es braucht Komponisten und Texter, Musiker, Nutzer, aber auch Juristen, Wirtschaftsvertreter, Entwickler und Netzaktivisten, um nur einen Ausschnitt zu nennen. -->
+      <p i18n:translate="about-background-p4">
+	TODO
+      </p><!-- 	Die C3S ist offen für Feedback und konstruktive Kritik. Dies ist zentraler Bestandteil des Konzepts einer gemeinsam zu formenden Verwertungsgesellschaft. Vor allem aber benötigen wir Eure Unterstützung. Wer sich aktiv bei der C3S beteiligen oder sie unterstützen möchte, findet auf der Support-Seite (Link) verschiedene Möglichkeiten – wir freuen uns auf Euch! -->
+      
     <a name="motivation"></a>
     <h2 i18n:translate="headline-about-motivation">The Motivation - Why another collecting society?</h2>
 
