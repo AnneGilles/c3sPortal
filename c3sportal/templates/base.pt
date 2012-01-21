@@ -17,7 +17,7 @@
     <script type="text/javascript" src="/static/bootstrap/1.4.0/bootstrap-dropdown.js"></script>
     <style type="text/css">
       body {
-      padding-top: 60px;
+      //padding-top: 60px;
       }
     </style>
     <!-- link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton|Nobile:regular,i,b,bi&amp;subset=latin"
@@ -79,6 +79,7 @@
         </div>
       </div>
     </div><!--! end topbar -->
+
     <div class="container-fluid"><!--! container-fluid -->
       <div class="sidebar">
         <div class="well">
@@ -102,11 +103,18 @@
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
           </ul>
-          <h5>Sidebar</h5>
-          <ul>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
+          <h5 i18n:translate="choose-a-language">Choose a Language</h5>
+	    <dl>
+	      <dd><a href="?_LOCALE_=de">de</a></dd>
+	      <dd><a href="?_LOCALE_=en">en</a></dd>
+	      <dd><a href="?_LOCALE_=es">es</a></dd>
+	      <dd><a href="?_LOCALE_=fr">fr</a></dd>
+	    </dl>
+
+	    <p>if no translation exists, default fallback is english</p>
+
+	  <h5>text</h5>
+	  <p>Duis tempor placerat turpis, nec viverra lorem hendrerit a. Nulla quis mollis eros. Aenean non magna venenatis metus imperdiet malesuada. Nam blandit, quam et euismod auctor, odio leo porttitor lorem, suscipit tristique massa sem sed neque. Vestibulum tempor interdum libero, at pulvinar purus suscipit eget. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </div><!--! end well -->
       </div><!--! end sidebar -->
       <div class="content">
@@ -126,6 +134,9 @@
       </div>
     </div>
     <div tal:replace="structure footer" />
+    <!--! fork me on github ribbon -->
+    <a href="http://github.com/AnneGilles/c3sPortal"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
+      <!--! end ribbon -->
   </body>
 </html>
   
