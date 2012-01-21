@@ -36,7 +36,34 @@ def my_view(request):
 
 @view_config(route_name='about', renderer='templates/about.pt')
 def about_view(request):
-    return {'footer': footer_view(request)}
+
+    team = [
+        'Marcel Hennes',
+        'Simona Levi',
+        'm.eik michalke',
+        'Christoph Scheid',
+        'Holger Schwetter',
+        'Wolfgang Senges',
+        'Michael Weller',
+        ]
+
+    supporters = [
+        'Paul Schwanse',
+        'Sandra Schappert',
+        'anonymous',
+        'anonymous',
+        'Sven Wendt',
+        ]
+
+    import random
+    random.shuffle(team)
+    random.shuffle(supporters)
+
+    return {
+        'footer': footer_view(request),
+        'team': team,
+        'supporters': supporters,
+        }
 
 
 @view_config(route_name='support', renderer='templates/support.pt')
