@@ -4,7 +4,7 @@
      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
      i18n:domain="c3sPortal">
   <div id="footer">
-    <div class="footer">
+    <div class="footer"-->
       <!-- footer html stolen and adapted from plone.org ;-) -->
       <div id="footer-wrapper">
 	<div id="footer-gradient">
@@ -13,39 +13,73 @@
 	<a id="footer-logo" href="http://c-3-s.org" title="C3S: Creative Commons Collecting Society"></a>
 	<p i18n:translate="c3s-claim">C3S -- transparent -- fair -- democratized</p>
 	<p i18n:translate="c3s-copyright">&copy; Copyright 2011, Christoph Scheid et al..</p>
-	<div id="sitemap">
+	<!-- div id="sitemap" -->
+	<div class="row">
+	  <div class="span3">
 	  <dl>
             <dt i18n:translate="">About</dt>
-            <dd><a href="/definition" i18n:translate="about-link" 
+            <dd><a href="/about#definition" i18n:translate="about-link" 
 		   i18n:attributes="title" title="What is C3S?">Definition</a></dd>
-            <dd><a href="/background" i18n:translate="background-link" 
+            <dd><a href="/about#background" i18n:translate="background-link" 
 		   i18n:attributes="title" title="Who is doing C3S?">Background</a></dd>
-            <dd><a href="/motivation" i18n:translate="motivation-link" 
+            <dd><a href="/about#motivation" i18n:translate="motivation-link" 
 		   i18n:attributes="title" title="Why do we want to start C3S?">Motivation</a></dd>
-            <dd><a href="/goals" i18n:translate="goals-link" 
+            <dd><a href="/about#goals" i18n:translate="goals-link" 
 		   i18n:attributes="title" title="What is C3S trying to become? What not?">Goals</a></dd>
-            <dd><a href="/roadmap" i18n:translate="roadmap-link" 
+            <dd><a href="/about#roadmap" i18n:translate="roadmap-link" 
 		   i18n:attributes="title" title="How is this project being realized?">Roadmap</a></dd>
 	  </dl>
-	  <dl>
-	    <dt i18n:translate="social-networking">Social</dt>
-	    <dd><a href="http://blog.c-3-s.org">Blog</a></dd>
-	    <dd><a href="http://twitter.com/C3S">twitter: @C3S</a></dd>
-            <dd><a href="irc://irc.freenode.net#OpenMusicContest.org">IRC</a></dd>
-	    <dd><a href="https://redmine.c-3-s.org/projects/crowdsourcing">Crowdsourcing</a></dd>
-
-	    <dd><a href="#">…and more.</a></dd>
-	  </dl>
-	  <dl>
-            <dt i18n:translate="">Developers</dt>
-            <dd><a href="/dev-help" i18n:translate="dev-help-link" i18n:attributes="title" title="How you can help">Help out</a></dd>
-
-            <dt>General</dt>
-            <dd><a href="/contact" i18n:translate="footer-link-contact">Contact</a></dd>
-            <dd><a href="/imprint" i18n:translate="footer-link-imprint">Imprint</a></dd>
-	  </dl>
+	  </div>
+	  <div class="span3">
+	    <dl>
+	      <dt i18n:translate="social-networking">Social</dt>
+	      <dd><a href="http://twitter.com/C3S"
+                     i18n:attributes="title" title="C3S on twitter">@C3S</a></dd>
+	      <dd><a href="http://facebook.com/C3S"
+		     i18n:attributes="title" title="C3S on Facebook">Facebook</a></dd>
+	      <dd><a href="http://plus.google.com/C3S"
+		     i18n:attributes="title" title="C3S on Google+">C3S+</a></dd>
+              <dd><a href="irc://irc.freenode.net#OpenMusicContest.org"
+		     i18n:attributes="title" 
+		     title="discuss C3S on freenode #OpenMusicContest.org">IRC</a></dd>
+	    </dl>
+	    
+	  </div>
+	  <div class="span3">
+	    
+	    <dl>
+              <dt i18n:translate="">Developers</dt>
+              <dd><a href="/support#devs" 
+		     i18n:translate="dev-help-link" 
+		     i18n:attributes="title" title="How you can help">Help out</a></dd>
+	      <dd><a href="https://redmine.c-3-s.org/projects/crowdsourcing">Crowdsourcing</a></dd>
+	      
+              <dt>General</dt>
+              <dd><a href="/contact" i18n:translate="footer-link-contact">Contact</a></dd>
+              <dd><a href="/imprint" i18n:translate="footer-link-imprint">Imprint</a></dd>
+	    </dl>
+	  </div>
+	  <div class="span3">
+	    
+	    <dl>
+              <dt i18n:translate="">Information</dt>
+	      <dd><a href="http://blog.c-3-s.org">Blog</a></dd>
+              <dd><a href="#newsletter" i18n:translate="link-newsletter" i18n:attributes="title" title="Subscribe to our news letter">Newsletter</a></dd>
+	      <dd><a href="#RSS" i18n:translate="link-rss-feed">RSS Feed</a></dd>
+              <dd><a href="/imprint" i18n:translate="footer-link-imprint">Imprint</a></dd>
+	    </dl>
+	  </div>
+	  <div class="span3">
+	    
+	    <dl>
+              <dt>i18n</dt>
+	      <dd><a href="?_LOCALE_=de">de</a></dd>
+	      <dd><a href="?_LOCALE_=en">en</a></dd>
+	      <dd><a href="?_LOCALE_=es">es</a></dd>
+	      <dd><a href="?_LOCALE_=fr">fr</a></dd>
+	    </dl>
+	  </div>
 	</div>
-      </div>
-    </div>
+
   </div>
 </div>
