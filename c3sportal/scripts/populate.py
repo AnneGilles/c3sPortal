@@ -15,13 +15,15 @@ from ..models import (
     Base,
     )
 
-def usage(argv):
+
+def usage(argv):  # pragma: no coverage
     cmd = os.path.basename(argv[0])
     print('usage: %s <config_uri>\n'
-          '(example: "%s development.ini")' % (cmd, cmd)) 
+          '(example: "%s development.ini")' % (cmd, cmd))
     sys.exit(1)
 
-def main(argv=sys.argv):
+
+def main(argv=sys.argv):  # pragma: no coverage
     if len(argv) != 2:
         usage(argv)
     config_uri = argv[1]
