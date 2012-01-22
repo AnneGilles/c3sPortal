@@ -16,6 +16,7 @@ requires = [
     'zope.sqlalchemy',
     'Babel',
     'lingua',
+    'webtest',
     ]
 
 if sys.version_info[:3] < (2, 5, 0):
