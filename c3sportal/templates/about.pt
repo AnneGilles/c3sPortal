@@ -8,9 +8,8 @@
 
     <h1 i18n:translate="headline-about_C3S">About C3S</h1>
 
-    <div class="row">
-      <div class="span9">
-
+    <div class="row"><!--! row starts -->
+      <div class="span10">
 	<a name="definition"></a>
 	<h2 i18n:translate="headline-what_is_C3S">What is C3S?</h2>
 
@@ -29,7 +28,7 @@
 	</p>
       </div>
 
-      <div class="span4 well">
+      <div class="span5 well">
         <h2 i18n:translate="">table of contents</h2>
         <ul class="links">
           <li><a href="${request.route_url('about') + '#definition'}"
@@ -46,40 +45,167 @@
 		 i18n:translate="">IRC Channel</a></li>
           </ul>
       </div>
-    </div>
+    </div><!--! row ends -->
+
 
 
     <div class="row">
-
-v      <div class="span5">
+      
+      <div class="span16">
 	<a name="background"></a>
 	<h2 i18n:translate="headline-about-team">The Team - Who is behind C3S?</h2>
+      </div>
+    </div>
+    
 
+
+    <div class="row">
+      
+      <div class="span5">
 	<p i18n:translate="about-background-p1">
 	  C3S consists of a group of people that initiated the project and a growing number of active supporters helping and counseling.
 	</p>
-
 	<p i18n:translate="about-background-p2">
 	  Formally C3S is a project of OpenMusicContest.org e.V (a non-profit association) in coordination with other independent persons. You can read up on why we decided to choose this path here.
 	<p>
-
+      </div>
+      
+      
+      <div class="span5">
 	<p i18n:translate="about-background-p3">
 	  The team members represent a wide spectrum of interests and disciplines and each add their perspective and view of different aspects. We want to include all possible intentions and competences of people who want to add to this project, TODO...
 	</p>
 	<!--	Als Vertreter verschiedener Interessengruppen und Disziplinen bringen die einzelnen Team-Mitglieder, gleichgültig ob Supporter oder Initiator, individuelle und sich ergänzende Perspektiven ein. Wir möchten die Interessen und die Kompetenz all derer berücksichtigen, die gemeinsam dazu beitragen können, unabhängigen Künstlern bzw. Urhebern eine bessere Position in der Musikwirtschaft zu verschaffen. Das ist grundlegend für den Aufbau einer Verwertungsgesellschaft, die der digitalen Gesellschaft gerecht wird – es braucht Komponisten und Texter, Musiker, Nutzer, aber auch Juristen, Wirtschaftsvertreter, Entwickler und Netzaktivisten, um nur einen Ausschnitt zu nennen. -->
+      </div>
+      
+      
+      <div class="span5">
 	<p i18n:translate="about-background-p4">
-	  TODO
+	  We are happy to receive feedback from you and everybody. Feedback, be it positive or negative, is an important basis for a project like this: collectively form a collecting society. Most of all we need support. Everybody who wants to join us and help in whatever way can choose from a wide range of items, see <a href="/support">the support page</a>. We are looking forward to hearing from you!
 	</p><!-- 	Die C3S ist offen für Feedback und konstruktive Kritik. Dies ist zentraler Bestandteil des Konzepts einer gemeinsam zu formenden Verwertungsgesellschaft. Vor allem aber benötigen wir Eure Unterstützung. Wer sich aktiv bei der C3S beteiligen oder sie unterstützen möchte, findet auf der Support-Seite (Link) verschiedene Möglichkeiten – wir freuen uns auf Euch! -->
 
+	<p i18n:translate="about-background-p5">
+	  However, the members of the "construction team" ... TODO
+
+	  Gleichgültig, wer derzeit zum Kern des Aufbau-Teams zählt: Nach Gründung der C3S können unter Beibehaltung des Satzungsentwurfs nur Musiker (Aufführende) und Komponisten bzw. Texter (Urheber) Mitglied der C3S werden. Unterstützer der C3S werden in einem Förderverein oder dem nicht stimmberechtigten Beirat aktiv sein können.
+	</p>
       </div>
 
+    </div><!--! end row -->
+
+
+    <!--! start row -->
+    <div class="row">
+      <div class="span5">
+	<h3 i18n:translate="">The Team</h3>
+	<div class="well">
+	  <!-- a shuffled list of our team members -->
+	  <table class="zebra-striped">
+	    <tr tal:repeat="teamster team">
+	      <td>${teamster}</td>
+	    </tr>
+	  </table>
+	</div>
+      </div>
 
       <div class="span5">
+	<h3 i18n:translate="">Active Supporters</h3>
+	<!-- a shuffled list of our active supporters -->
+	<div class="well">
+	  <table class="zebra-striped">
+	    <tr tal:repeat="supporter supporters">
+	      <td>${supporter}</td>
+	    </tr>
+	  </table>
+	</div>
+      </div>
+
+      <div class="span5">
+	<h3 i18n:translate="">Partners</h3>
+	<!-- a shuffled list of our partners -->
+	<div class="well">
+	  <table class="zebra-striped">
+	    <tr>
+	      <td>$partner</td>
+	    </tr><tr>
+	      <td>$partner</td>
+	    </tr><tr>
+	      <td>$partner</td>
+	    </tr><tr>
+	      <td>$partner</td>
+	    </tr><tr>
+	      <td>$partner</td>
+	    </tr>
+	  </table>
+	</div>
+      </div>
+    </div>
+
+    <!--! new row -->
+    <div class="row">
+      <div class="span16">
 	<a name="motivation"></a>
 	<h2 i18n:translate="headline-about-motivation">The Motivation - Why another collecting society?</h2>
-
-	<p>text, <br /> text, <br /> text, <br /> ... TODO</p>
+	<!-- Warum möchten wir die C3S gründen? -->
       </div>
+    </div>
+
+    <div class="row">
+      <div class="span5">
+	<h3 i18n:translate="about-motivation-market-integration">Lack of market integration of CC-licensed works</h3>
+	<!-- Es fehlt eine echte Marktintegration. -->
+
+        <p i18n:translate="about-motivation-p1">
+	  Musiker müssen die Möglichkeit zur unkomplizierten, kommerziellen Nutzung freier Lizenzen haben können, ohne auf die Vorteile für private Nutzer verzichten zu müssen, oder von privatwirtschaftlichen Angeboten abhängig zu werden. Eine Verwertungsgesellschaft vertritt keine weiteren wirtschaftlichen Interessen als die ihrer Mitglieder.
+	</p>
+      </div>
+      <div class="span5">
+	<h3 i18n:translate="about-motivation-increasing-number-cc">Increasing number of works under CC licenses</h3>
+	<!-- Die Zahl von Werken unter CC und freien Lizenzen steigt. -->
+        <p i18n:translate="about-motivation-p1">
+	  Allein das Download-Angebot von Jamendo verzeichnet aktuell mehr als 300.000 Songs von fast 40.000 Künstlern, das Free Music Archive bietet ca. 25.000 Tracks an. Hinzu kommen diverse weitere spezialisierte Plattformen und Aggregatoren, Netlabels, aber auch Anbieter GEMA-freier Musik, die von einer C3S profitieren können.
+	</p>
+      </div>
+      <div class="span5">
+
+	<h3 i18n:translate="about-motivation-cc-acceptance">Growing acceptance of CC licenses</h3>
+	<!-- Die Akzeptanz von CreativeCommons-Lizenzen ist international stark gestiegen. -->
+	<p i18n:translate="about-motivation-p1">
+	  So bietet Vimeo in Kooperation mit dem Free Music Archive ein Angebot für Podcast-geeignete Musik. Weitere Beispiele für eine Integration finden sich neben bereits genannten Musikplattformen bei anderen Content-Services wie flickr und YouTube. Auch in TV und Rundfunk werden zunehmend  CreativeCommons-lizenzierte Inhalte eingesetzt und produziert (Link: http://wiki.creativecommons.org/Broadcasting). Dazu zählen die BBC und der norwegische NRK ebenso wie der NDR und der Bayrische Rundfunk in Deutschland oder auch Al Jazeera.
+	</p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="span5">
+        <h3 i18n:translate="about-motivation-cc-nc">A large part of CC licensed works is using the NC (non-commercial license)</h3>
+	<!-- Ein bedeutender Teil der CC-Werke wird unter einer NC-(non commercial)-Lizenz veröffentlicht. -->
+        <p i18n:translate="about-motivation-p1">
+	  Die Urheber wünschen zwar einen kostenlosen Download für Privatzwecke, möchten andererseits aber ihre Werke nur kontrolliert und in der Regel gegen eine Gebühr für kommerzielle Zwecke eingesetzt sehen. Möglich ist dies momentan nur über private Anbieter wie Jamendo oder rightclearing.com, oder aber in für beide Seiten komplizierten und wenig praktikablen Individualverträgen zwischen Künstler und Lizenznehmer.
+	</p>
+      </div>
+      <div class="span5">
+
+	<h3 i18n:translate="about-motivation-cc-unused-potential">Unused potential of CC licensing</h3>
+        <!-- Die Möglichkeiten von CC werden nicht genügend genutzt.  -->
+        <p i18n:translate="about-motivation-p1">
+	  Vorteile und Konzept der CreativeCommons-Lizenzierung sind nicht nur nahezu allen Musikhörern unbekannt oder fremd, sondern auch Lizenznehmern und Künstlern. Schlimmer noch, CreativeCommons-Angebote werden fälschlicherweise oft als bedingungslos kostenfrei, von potenziellen Nutzern manchmal sogar als illegal betrachtet.
+	</p>
+      </div>
+      <div class="span5">
+	<h3 i18n:translate="about-motivation-cs-cc-incompat">Few Collecting Societies are compatible with CC licenses</h3>
+	<!-- Nur die wenigsten Verwertungsgesellschaften aber integrieren CreativeCommons-Lizenzen.-->
+	<p i18n:translate="about-motivation-cc-cs-p1">
+	  Unlike in the United States, members of e.g. German collecting societies may not license their works under CC licenses.</p>
+	<!-- Anders als in den USA, können Mitglieder der deutschen Verwertungsgesellschaft GEMA keines ihrer Werke unter einer CreativeCommons-Lizenz veröffentlichen. -->
+
+      </div>
+
+    </div>
+
+
+    <div class="row">
 
       <div class="span5">
 	<a name="goals"></a>
@@ -107,7 +233,7 @@ v      <div class="span5">
 
       <div class="span5">
 
-	<a name="rules" class="jumptarget">foo</a>
+	<a name="rules"></a>
 	<h2 i18n:translate="headline-about-rules">The Rules - What are the principals we adhere to?</h2>
 
 	<p>text, <br /> text, <br /> text, <br /> ... TODO</p>
