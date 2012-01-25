@@ -1,23 +1,26 @@
-# German translations for c3sPortal.
+# Translations template for c3sPortal.
 # Copyright (C) 2012 ORGANIZATION
 # This file is distributed under the same license as the c3sPortal project.
-#
+# 
 # Translators:
 # <a@shri.de>, 2012.
+#   <a@shri.de>, 2012.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+# Wolfgang Senges <wolfgang.senges@googlemail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version:  c3sPortal\n"
+"Project-Id-Version: c3sPortal\n"
 "Report-Msgid-Bugs-To: https://github.com/AnneGilles/c3sPortal/issues\n"
 "POT-Creation-Date: 2012-01-21 05:16+0100\n"
-"PO-Revision-Date: 2012-01-20 12:40+0000\n"
-"Last-Translator: AnneGilles <a@shri.de>\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"PO-Revision-Date: 2012-01-25 15:41+0000\n"
+"Last-Translator: Wolfgang Senges <wolfgang.senges@googlemail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. Default: About C3S
 #: c3sportal/templates/about.pt:9
@@ -29,8 +32,8 @@ msgstr "Das Wichtigste -- Was ist die C3S?"
 msgid "headline-what_is_C3S"
 msgstr "Was ist die C3S?"
 
-#. Default: C3S - Creative Commons Collecting Society - is the working title of
-#. a
+#. Default: C3S - Creative Commons Collecting Society - is the working title
+#. of a
 #. project to establish a new European Collecting Society for musical works,
 #. especially those works published under a Creative Commons license.
 #: c3sportal/templates/about.pt:17
@@ -68,13 +71,13 @@ msgid "about-definition-p3"
 msgstr ""
 "Grundlegend für unsere Tätigkeit ist die Förderung der Verbreitung von "
 "Creative Commons Lizenzen durch Beratung, Workshops, Vorträge und "
-"Öffentlichkeitsarbeit. Darüber hinaus  unterstützen wir kulturelle "
-"Projekte, die die Arbeit von nicht-etablierten und Nachwuchskünstlern "
-"nachhaltig erleichtern und fördern."
+"Öffentlichkeitsarbeit. Darüber hinaus  unterstützen wir kulturelle Projekte,"
+" die die Arbeit von nicht-etablierten und Nachwuchskünstlern nachhaltig "
+"erleichtern und fördern."
 
 #: c3sportal/templates/about.pt:33
 msgid "table of contents"
-msgstr ""
+msgstr "Inhaltsverzeichnis"
 
 #: c3sportal/templates/about.pt:35 c3sportal/templates/home.pt:38
 msgid "What is C3S?"
@@ -110,8 +113,8 @@ msgstr "Das Team -- Wer steckt hinter der C3S?"
 #: c3sportal/templates/about.pt:58
 msgid "about-background-p1"
 msgstr ""
-"Die C3S besteht aus dem Kreis der Initiatoren und einer stetig wachsenden"
-" Anzahl von aktiven Supportern, die uns unterstützen und beraten."
+"Die C3S besteht aus dem Kreis der Initiatoren und einer stetig wachsenden "
+"Anzahl von aktiven Supportern, die uns unterstützen und beraten."
 
 #. Default: The team members represent a wide spectrum of interests and
 #. disciplines
@@ -122,27 +125,27 @@ msgstr ""
 #: c3sportal/templates/about.pt:66
 msgid "about-background-p3"
 msgstr ""
-"Als Vertreter verschiedener Interessengruppen und Disziplinen bringen die"
-" einzelnen Team-Mitglieder, gleichgültig ob Supporter oder Initiator, "
+"Als Vertreter verschiedener Interessengruppen und Disziplinen bringen die "
+"einzelnen Team-Mitglieder, gleichgültig ob Supporter oder Initiator, "
 "individuelle und sich ergänzende Perspektiven ein. Wir möchten die "
-"Interessen und die Kompetenz all derer berücksichtigen, die gemeinsam "
-"dazu beitragen können, unabhängigen Künstlern bzw. Urhebern eine bessere "
-"Position in der Musikwirtschaft zu verschaffen. Das ist grundlegend für "
-"den Aufbau einer Verwertungsgesellschaft, die der digitalen Gesellschaft "
-"gerecht wird – es braucht Komponisten und Texter, Musiker, Nutzer, aber "
-"auch Juristen, Wirtschaftsvertreter, Entwickler und Netzaktivisten, um "
-"nur einen Ausschnitt zu nennen."
+"Interessen und die Kompetenz all derer berücksichtigen, die gemeinsam dazu "
+"beitragen können, unabhängigen Künstlern bzw. Urhebern eine bessere Position"
+" in der Musikwirtschaft zu verschaffen. Das ist grundlegend für den Aufbau "
+"einer Verwertungsgesellschaft, die der digitalen Gesellschaft gerecht wird –"
+" es braucht Komponisten und Texter, Musiker, Nutzer, aber auch Juristen, "
+"Wirtschaftsvertreter, Entwickler und Netzaktivisten, um nur einen Ausschnitt"
+" zu nennen."
 
 #. Default: TODO
 #: c3sportal/templates/about.pt:70
 msgid "about-background-p4"
 msgstr ""
-"Die C3S ist offen für Feedback und konstruktive Kritik. Dies ist "
-"zentraler Bestandteil des Konzepts einer gemeinsam zu formenden "
-"Verwertungsgesellschaft. Vor allem aber benötigen wir Eure Unterstützung."
-" Wer sich aktiv bei der C3S beteiligen oder sie unterstützen möchte, "
-"findet auf der Support-Seite (Link) verschiedene Möglichkeiten – wir "
-"freuen uns auf Euch!"
+"Die C3S ist offen für Feedback und konstruktive Kritik. Dies ist zentraler "
+"Bestandteil des Konzepts einer gemeinsam zu formenden "
+"Verwertungsgesellschaft. Vor allem aber benötigen wir Eure Unterstützung. "
+"Wer sich aktiv bei der C3S beteiligen oder sie unterstützen möchte, findet "
+"auf der Support-Seite (Link) verschiedene Möglichkeiten – wir freuen uns auf"
+" Euch!"
 
 #. Default: Home
 #: c3sportal/templates/base.pt:35
@@ -191,30 +194,27 @@ msgstr "Leitsätze"
 #. Default: Support
 #: c3sportal/templates/base.pt:50
 msgid "menu-dropdown-support"
-msgstr ""
+msgstr "Unterstützen"
 
 #. Default: Register
 #: c3sportal/templates/base.pt:52
-#, fuzzy
 msgid "dropdown-support-register"
-msgstr "Leitsätze"
+msgstr "Registrieren"
 
 #. Default: Join the team
 #: c3sportal/templates/base.pt:53
-#, fuzzy
 msgid "dropdown-support-team"
-msgstr "Wie realisieren wir das Project?"
+msgstr "Mitmachen im Team"
 
 #. Default: KnowledgeBase
 #: c3sportal/templates/base.pt:62
 msgid "menu-dropdown-knowledgebase"
-msgstr ""
+msgstr "Wissenswertes"
 
 #. Default: foo
 #: c3sportal/templates/base.pt:64
-#, fuzzy
 msgid "dropdown-knowledgebase-"
-msgstr "Leitsätze"
+msgstr "foo"
 
 #. Default: Contact
 #: c3sportal/templates/base.pt:67
@@ -232,9 +232,8 @@ msgstr "C3S unterstützen"
 
 #. Default: Feedback
 #: c3sportal/templates/base.pt:88
-#, fuzzy
 msgid "sidebar-feedback"
-msgstr "Spenden"
+msgstr "Feedback"
 
 #. Default: Donate
 #: c3sportal/templates/base.pt:90
@@ -264,14 +263,13 @@ msgstr "Verweis"
 #. Default: Choose a Language
 #: c3sportal/templates/base.pt:106
 msgid "choose-a-language"
-msgstr ""
+msgstr "Sprache auswählen"
 
 #. Default: Welcome to ${C3S}, a new Collecting Society being booted up.
 #: c3sportal/templates/home.pt:11
 msgid "c3s-welcome-definition"
 msgstr ""
-"Willkommen bei der ${C3S}, einer neuen Verwertungsgesellschaft in "
-"Gründung."
+"Willkommen bei der ${C3S}, einer neuen Verwertungsgesellschaft in Gründung."
 
 #. Default: C3S is an abbreviation for ${CreativeCommonsCollectingSociety}
 #: c3sportal/templates/home.pt:14
@@ -285,10 +283,9 @@ msgstr "Was ist die C3S?"
 
 #: c3sportal/templates/home.pt:22
 msgid ""
-"C3S -- an abbreviation for Creative Commons Collecting Society -- is a "
-"new upcoming European collecting society for Artists and Bands to "
-"register their works: music released under Creative Commons and other "
-"free licenses."
+"C3S -- an abbreviation for Creative Commons Collecting Society -- is a new "
+"upcoming European collecting society for Artists and Bands to register their"
+" works: music released under Creative Commons and other free licenses."
 msgstr ""
 "Die C3S – Creative Commons Collecting Society – ist eine Initiative zur "
 "Gründung einer europäischen Verwertungsgesellschaft für Musikstücke, die "
@@ -296,15 +293,15 @@ msgstr ""
 
 #: c3sportal/templates/home.pt:26
 msgid ""
-"We expect the delivery of application to offlically become a registered "
-"and approved collecting society to happen at the end of 2012."
+"We expect the delivery of application to offlically become a registered and "
+"approved collecting society to happen at the end of 2012."
 msgstr ""
 "Die Antragstellung zur Zulassung als Verwertungsgesellschaft erfolgt "
 "voraussichtlich im Herbst 2012."
 
 #: c3sportal/templates/home.pt:31
 msgid "Read more..."
-msgstr ""
+msgstr "Mehr dazu..."
 
 #: c3sportal/templates/home.pt:36
 msgid "About C3S"
@@ -337,7 +334,7 @@ msgstr "Wahrnehmung der Verwertung nur für vom Künstler ausgewählte Stücke"
 
 #: c3sportal/templates/home.pt:63
 msgid "reach 100% payout of royalties"
-msgstr "bis zu 100% Rückfluss der Royakties"
+msgstr "bis zu 100% Rückfluss der Royalties"
 
 #: c3sportal/templates/home.pt:64
 msgid "transparency"
@@ -348,14 +345,12 @@ msgid "promotion of culture"
 msgstr "Kulturförderung"
 
 #: c3sportal/templates/home.pt:71
-#, fuzzy
-#| msgid "headline-register"
 msgid "Register"
-msgstr "Ziele"
+msgstr "Registrieren"
 
 #: c3sportal/templates/home.pt:72
 msgid "We need your support!"
-msgstr ""
+msgstr "Wir brauchen Deine Unterstützung!"
 
 #. Default: If you are ready and willing to register your musical works with
 #. C3S
@@ -366,6 +361,9 @@ msgstr ""
 #: c3sportal/templates/home.pt:74
 msgid "register-p1"
 msgstr ""
+"Wenn Ihr bereit seid, der C3S nach ihrer Gründung als neuer "
+"Verwertungsgesellschaft für Werke unter Creative Commons und freien Lizenzen"
+" beizutreten, bitte ${register-here}. "
 
 #. Default: The number of registered supporters is absolutely crucial for C3S
 #. to
@@ -373,32 +371,28 @@ msgstr ""
 #: c3sportal/templates/home.pt:82 c3sportal/templates/home.pt:91
 msgid "register-p2"
 msgstr ""
+"Die Anzahl registrierter Unterstützer ist ausschlaggebend für die Zulassung "
+"als Verwertungsgesellschaft. "
 
 #. Default: Artists
 #: c3sportal/templates/home.pt:89
-#, fuzzy
-#| msgid "headline-register"
 msgid "home-headline-artists"
-msgstr "Ziele"
+msgstr "KünstlerInnen"
 
 #. Default: Sponsors and Partners
 #: c3sportal/templates/home.pt:98
-#, fuzzy
-#| msgid "headline-register"
 msgid "home-headline-partners"
-msgstr "Ziele"
+msgstr "Partner und Sponsoren"
 
 #. Default: Support C3S
 #: c3sportal/templates/support.pt:9
-#, fuzzy
 msgid "headline-support_C3S"
-msgstr "Das Wichtigste -- Was ist die C3S?"
+msgstr "C3S unterstützen"
 
 #. Default: Register your works with C3S
 #: c3sportal/templates/support.pt:12
-#, fuzzy
 msgid "headline-register"
-msgstr "Ziele"
+msgstr "Werke bei der C3S anmelden"
 
 #. Default: A collection society can not work without a repertoire. If you
 #. think
@@ -407,31 +401,35 @@ msgstr "Ziele"
 #: c3sportal/templates/support.pt:14
 msgid "support-register-p1"
 msgstr ""
+"Wenn Ihr bereit seid, der C3S nach ihrer Gründung als neuer "
+"Verwertungsgesellschaft für Werke unter Creative Commons und freien Lizenzen"
+" beizutreten, bitte ${register-here}."
 
 #. Default: Join The Team!
 #: c3sportal/templates/support.pt:27
-#, fuzzy
 msgid "headline-support-team"
-msgstr "Das Team -- Wer steckt hinter der C3S?"
+msgstr "Dem Team beitreten"
 
 #. Default: C3S consists of a group of people that initiated the project and a
-#. growing number of active supporters helping and counseling. If you have some
+#. growing number of active supporters helping and counseling. If you have
+#. some
 #. ideas how to help, whatever it may be, please get in contact.
 #: c3sportal/templates/support.pt:29
 msgid "support-team-p1"
 msgstr ""
+"Die C3S besteht aus dem Kreis der Initiatoren und einer stetig wachsenden "
+"Anzahl von aktiven Supportern, die uns unterstützen und beraten. Falls Du "
+"eine Idee hast, wie Du uns unterstützen könntest, bitte melde Dich bei uns."
 
 #. Default: Give Feedback
 #: c3sportal/templates/support.pt:41
-#, fuzzy
 msgid "headline-support-feedback"
-msgstr "Das Team -- Wer steckt hinter der C3S?"
+msgstr "Feedback geben"
 
 #. Default: Help us translate
 #: c3sportal/templates/support.pt:47
-#, fuzzy
 msgid "headline-support-translate"
-msgstr "Die Regeln - C3S?"
+msgstr "Hilf uns beim Übersetzen"
 
 #. Default: This project makes an effort to establish a European collecting
 #. society
@@ -443,65 +441,19 @@ msgstr "Die Regeln - C3S?"
 #: c3sportal/templates/support.pt:49
 msgid "support-translate-p1"
 msgstr ""
+"Diese Projekt versucht, eine Verwertungsgesellschaft auf Europäischer Ebene "
+"zu etablieren und muss daher Informationen in vielen Sprachen anbieten. Wir "
+"würden gerne alle möglichen anbieten, angefangen mit den Europaischen. Falls"
+" diese Seite nicht in deiner Sprache angezeigt wird, fehlt uns "
+"wahrscheinlich eine Übersetzung."
 
-#. Default: Please register over at Transifex and help by translating the texts
-#. to
+#. Default: Please register over at Transifex and help by translating the
+#. texts to
 #. your language.
 #: c3sportal/templates/support.pt:63
 msgid "support-translate-p2"
 msgstr ""
+"Bitte registriere Dich drüben bei Transifex und helfe, diese Seite zu "
+"übersetzen."
 
-#~ msgid "headline-about-motivation"
-#~ msgstr "Die Motivation - Warum noch eine Verwertungsgesellschaft?"
-
-#~ msgid "headline-about-goals"
-#~ msgstr "Die Ziele - Was strebt die C3S an?"
-
-#~ msgid "headline-about-funding"
-#~ msgstr "Die Finanzierung - Wie wird das Project finanziert?"
-
-#~ msgid "headline-about-roadmap"
-#~ msgstr "Die Roadmap - Wie kommt das Projekt an den Start?"
-
-#~ msgid "headline-about-rules"
-#~ msgstr "Die Regeln - C3S?"
-
-#~ msgid "c3s-claim"
-#~ msgstr "C3S -- transparent -- fair -- demokratisch"
-
-#~ msgid "c3s-copyright"
-#~ msgstr "&copy; Copyright, Christoph Scheid et al."
-
-#~ msgid "about-link"
-#~ msgstr "Definition"
-
-#~ msgid "background-link"
-#~ msgstr "Hintergrund"
-
-#~ msgid "motivation-link"
-#~ msgstr "Motivation"
-
-#~ msgid "goals-link"
-#~ msgstr "Ziele"
-
-#~ msgid "roadmap-link"
-#~ msgstr "Roadmap"
-
-#~ msgid "social-networking"
-#~ msgstr "Soziale Netzwerke"
-
-#~ msgid "Developers"
-#~ msgstr "Entwickler"
-
-#~ msgid "How you can help"
-#~ msgstr "Wie man sich einbringen kann"
-
-#~ msgid "dev-help-link"
-#~ msgstr "Mitmachen"
-
-#~ msgid "footer-link-contact"
-#~ msgstr "Kontakt"
-
-#~ msgid "footer-link-imprint"
-#~ msgstr "Impressum/Disclaimer"
 
