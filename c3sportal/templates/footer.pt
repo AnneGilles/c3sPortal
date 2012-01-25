@@ -11,7 +11,7 @@
 	</div>
 	<!-- div id="footer" -->
 	<a id="footer-logo" href="http://c-3-s.org" title="C3S: Creative Commons Collecting Society"></a>
-	<p i18n:translate="c3s-claim">C3S -- transparent -- fair -- democratized</p>
+	<h3 style="color:White;" i18n:translate="c3s-claim">C3S -- transparent -- fair -- democratized</h3>
 	<p i18n:translate="c3s-copyright">&copy; Copyright 2011, Christoph Scheid et al..</p>
 	<!-- div id="sitemap" -->
 	<div class="row">
@@ -36,12 +36,16 @@
 	      <dd><a href="http://twitter.com/C3S"
                      i18n:attributes="title" title="C3S on twitter">@C3S</a></dd>
 	      <dd><a href="http://www.facebook.com/pages/C3S/275522539151825"
-		     i18n:attributes="title" title="C3S on Facebook">Facebook</a></dd>
+		     i18n:attributes="title" title="C3S on Facebook">facebook</a></dd>
 	      <dd><a href="http://plus.google.com/C3S"
 		     i18n:attributes="title" title="C3S on Google+">C3S+</a></dd>
               <dd><a href="irc://irc.freenode.net#OpenMusicContest.org"
 		     i18n:attributes="title" 
-		     title="discuss C3S on freenode #OpenMusicContest.org">IRC</a></dd>
+		     title="discuss C3S on freenode #OpenMusicContest.org">IRC</a> | 
+                  <a href="https://webchat.freenode.net#OpenMusicContest.org"
+		     i18n:attributes="title" 
+		     target="_webchat"
+		     title="discuss C3S on freenode #OpenMusicContest.org in a new Browser window">WebChat</a></dd>
 	    </dl>
 	    
 	  </div>
