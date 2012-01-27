@@ -43,6 +43,7 @@ class TestMyView(unittest.TestCase):
     def test_my_view(self):
         from .views import my_view
         request = DummyReqWithAcceptLangAttr()
+        temp = request.accept_language
         info = my_view(request)
         self.assertTrue('footer' in info)
 

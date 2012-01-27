@@ -31,3 +31,22 @@ class FunctionalTests(unittest.TestCase):
         #print("this is test_z_root")
         res = self.testapp.get('/', status=200)
         self.failUnless('Creative Commons Collecting Society' in res.body)
+
+    def test_lang_en(self):
+        """load the front page, check english string exists"""
+        res = self.testapp.get('/?_LOCALE_=en', status=200)
+        self.failUnless('Artists' in res.body)
+
+    def test_lang_de(self):
+        """load the front page, check german string exists"""
+        res = self.testapp.get('/?_LOCALE_=de', status=200)
+        self.failUnless('Creative Commons Collecting Society' in res.body)
+        self.failUnless('Verwertungsgesellschaft' in res.body)
+
+    def test_no_cookies(self):
+        """load the front page, check english string exists"""
+        #print "will reset cookies"
+        res = self.testapp.reset()
+        res = self.testapp.get('/', status=200,
+            headers={'Accept-Language': 'da, en-gb;q=0.8, en;q=0.7'})
+        self.failUnless('Artists' in res.body)
