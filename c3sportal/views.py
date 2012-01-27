@@ -53,6 +53,7 @@ def about_view(request):
         'anonymous',
         'anonymous',
         'Sven Wendt',
+        'Volker Grassmuck',
         ]
 
     import random
