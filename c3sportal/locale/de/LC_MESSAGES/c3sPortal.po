@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: c3sPortal\n"
 "Report-Msgid-Bugs-To: https://github.com/AnneGilles/c3sPortal/issues\n"
 "POT-Creation-Date: 2012-01-31 10:29+0100\n"
-"PO-Revision-Date: 2012-01-31 10:00+0000\n"
+"PO-Revision-Date: 2012-01-31 10:13+0000\n"
 "Last-Translator: AnneGilles <a@shri.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -54,9 +54,10 @@ msgstr ""
 #: c3sportal/templates/about.pt:21
 msgid "about-definition-p2"
 msgstr ""
-"Die C3S – Creative Commons Collecting Society – ist eine Initiative zur "
-"Gründung einer europäischen Verwertungsgesellschaft für Musikstücke, die "
-"unter CreativeCommons- und anderen freien Lizenzen veröffentlicht werden."
+"Nach Zulassung durch das Deutsche Patent- und Markenamt wird die C3S eine "
+"vollwertige Alternative zu bestehenden Verwertungsgesellschaften für Musik "
+"bieten. Sie wird ihre Mitglieder als zentraler Ansprech-, Vertrags- und "
+"Abrechnungspartner gegenüber Lizenznehmern vertreten."
 
 #. Default: Grundlegend für unsere Tätigkeit ist die Förderung der Verbreitung
 #. von
