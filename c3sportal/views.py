@@ -11,6 +11,11 @@ def my_view(request):
     return {'footer': footer_view(request)}
 
 
+@view_config(route_name='benefits', renderer='templates/benefits.pt')
+def benefits_view(request):
+    return {'footer': footer_view(request)}
+
+
 @view_config(route_name='about', renderer='templates/about.pt')
 def about_view(request):
 

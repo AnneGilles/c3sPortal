@@ -20,6 +20,7 @@ def main(global_config, **settings):
     config.add_translation_dirs('c3sportal:locale')
     config.add_route('home', '/')
     config.add_route('about', '/about')
+    config.add_route('benefits', '/benefits')
     config.add_route('support', '/support')
     config.scan()
     return config.make_wsgi_app()

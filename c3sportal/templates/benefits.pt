@@ -1,0 +1,215 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="c3sPortal"
+      metal:use-macro="base">
+  <tal:block metal:fill-slot="content">    
+    
+    
+    <div class="row"><!--! row starts -->
+      <div class="span4">      
+	<h1 i18n:translate="headline-key-benefits">Key Benefits</h1>
+	
+	<p i18n:translate="benefits-intro">
+	  At this moment, C3S hasn't been founded as collecting society yet. But the concept has been developed. Have a look at the benefits of a Creative Commons Collecting Society here:
+	</p>
+      </div>
+
+      <div class="span5 offset2 well">
+        <h2 i18n:translate="table-of-contents">table of contents</h2>
+        <ul class="links">
+          <li><a href="${request.route_url('benefits') + '#members'}"
+		 i18n:translate="for-members">For Members</a></li>
+          <li><a href="${request.route_url('benefits') + '#distributors'}"
+		 i18n:translate="for-distributors">For Distributors, Digital Platforms and Labels</a></li>
+          <li><a href="${request.route_url('benefits') + '#licensees'}"
+		 i18n:translate="for-licensees">For Licensees</a></li>
+          <li><a href="${request.route_url('benefits') + '#promoters'}"
+		 i18n:translate="for-promoters">For Promoters</a></li>
+          <li><a href="${request.route_url('benefits') + '#private-users'}"
+		 i18n:translate="for-private-users">For private Users</a></li>
+          <li><a href="${request.route_url('benefits') + '#edu-soc'}"
+		 i18n:translate="for-edu-and-soc">For Educational Services and Society</a></li>
+          </ul>
+      </div>
+
+    </div>
+      
+    <div class="row"><!--! new row ========================================== -->
+      <a name="members"></a>
+      <h2 i18n:translate="benefits-for-members">For members.</h2>
+      
+      <p i18n:translate="benefits-for-members-intro">
+	You are <strong>composers, writers or musicians</strong>? No matter whether you are professionals, semi-professionals, hobby musicians or just starting, C3S does cater for your needs. Because you decide how it is going to be like!
+      </p>
+      
+      <ul>
+	<li i18n:translate="benefits-for-members-li1">
+	  C3S has been drafted with <strong>songwriters and musicians</strong> in mind - there's no other people who can join C3S as a member.
+	</li>
+	<li i18n:translate="benefits-for-members-li2">
+	  Each member will be <b>fully eligible to vote, holding equal voting rights</b> from the first day on.
+	</li>
+	<li i18n:translate="benefits-for-members-li3">
+	  Licensing workflow will be highly simplified. <strong>We are your contact in communication as well as your partners in negotiating licensing</strong> - at your conditions.
+	</li>
+	<li i18n:translate="benefits-for-members-li4">
+	  C3S will be available and active all over Europe. Therefore, your <b>licenses will be valid everywhere in Europe</b>.
+	</li>
+	<li i18n:translate="benefits-for-members-li5">
+	  You decide which of your works are to bee administered by C3S. There's <b>no exclusivity such as a collective administration</b> of all of your works.
+	</li>
+	<li i18n:translate="benefits-for-members-li6">
+	  <b>Royalties will be distributed 1:1</b> wherever possible. Anytime your song is played, it is you who will receive royalties - no one else. A distribution based on statistics will apply exceptionally only.
+	</li>
+      </ul>
+      
+    </div>
+    
+    <div class="row"><!--! new row ========================================== -->
+      <a name="distributors"></a>
+      <h2 i18n:translate="benefits-for-distributors">For distributors, digital platforms and labels.</h2>
+      
+      <p i18n:translate="benefits-for-distributors-intro">
+	You are offering Creative Commons music for <b>download or licensing</b>? You're running a <b>label or netlabel</b>? In no way we want to compete with you - in a joint effort with you, we want to display the vast range of free licensed music as a compelling alternative.
+      </p>
+      
+      <ul>
+	<li i18n:translate="benefits-for-distributors-li1">
+	  Increased visibility of your services and higher potential to draw musicians towards free licenses sets <b>highest strength in competition</b> compared to providers of traditionally licensed works.
+	</li>
+	<li i18n:translate="benefits-for-distributors-li2">
+	  Free licenses become more attractive through the C3S´s extensive repertoire, reachable through a single interface.
+	</li>
+	<li i18n:translate="benefits-for-distributors-li3">
+	  The C3S serves as a central communicator; artists using free licenses can easily be reached.
+	</li>
+	<li i18n:translate="benefits-for-distributors-li4">
+	  Music promotion and public relation acitivites will become easier and legalised. This goes for airplay, the spreading of content for no charge, the use of widgets for fans, user generated content and many more campaign strategies.
+	</li>
+	<li i18n:translate="benefits-for-distributors-li5">
+	  Your own services and USPs remain in your hand. As before you are the public agent of publication and distribution of content.
+	</li>
+      </ul>
+    </div>
+
+
+   <div class="row"><!--! new row ========================================== -->
+      <a name="licensees"></a>
+      <h2 i18n:translate="benefits-for-licensees">For Licensees.</h2>
+
+      <p i18n:translate="benefits-for-licensees-intro">
+	You play or use music in radio or television? You use music in blogs and podcasts? You procure music for adverts, film or games? Our repertoire is complete and spans all styles. It is free for private use. It features clear, standardised conditions and prices for commercial use.
+      </p>
+
+      <ul>
+        <li i18n:translate="benefits-for-licensees-li1">
+	  A broad repertoire of free music is made available through a single interface for the first time.
+        </li>
+        <li i18n:translate="benefits-for-licensees-li2">
+	  The C3S offers the comfort of access to the repertoire of all member labels, distributors and independent artists through a single interface.
+        </li>
+        <li i18n:translate="benefits-for-licensees-li3">
+	  The C3S offers easy licensing conditions for every single work.
+        </li>
+        <li i18n:translate="benefits-for-licensees-li4">
+	  Benefits and <b>additional services by partnering providers</b> can be made use of as usual.
+        </li>
+        <li i18n:translate="benefits-for-licensees-li5">
+	  The fees will be structured clearly and transparently.
+        </li>
+        <li i18n:translate="benefits-for-licensees-li6">
+	  <b>Licensing contracts will be concluded quick and efficiently</b> by an automated workflow at low licensing fees.
+        </li>
+        <li i18n:translate="benefits-for-licensees-li7">
+	  C3S will offer <b>legal certainty</b> for all parties.
+        </li>
+      </ul>
+   </div>
+   <div class="row"><!--! new row ========================================== -->
+      <a name="promoters"></a>
+      <h2 i18n:translate="benefits-for-promoters">For Promoters.</h2>
+
+      <p i18n:translate="benefits-for-promoters-intro">
+	You are organizing <b>concerts or other music related events</b>? If so, low cost, simple license management and an exact forecast in cost is relevant to you.
+      </p>
+
+      <ul>
+        <li i18n:translate="benefits-for-promoters-li1">
+	  Usage of musical works under free licenses will be <b>>directly reported to C3S as collecting society in charge</b>.
+        </li>
+        <li i18n:translate="benefits-for-promoters-li2">
+	  Licensing tarifs are going to be drafted clearly and at reasonable cost - an easy and <b>exact calculation of costs can be done beforehand.</b>
+        </li>
+        <li i18n:translate="benefits-for-promoters-li3">
+	  Cost of <b>license fees will be calculated based on revenue</b> of an event.
+        </li>
+        <li i18n:translate="benefits-for-promoters-li4">
+	  one contact person for licensing of Creative Commons and free licensed works
+        </li>
+        <li i18n:translate="benefits-for-promoters-li5">
+	  clearly understandable conditions of usage
+        </li>
+        <li i18n:translate="benefits-for-promoters-li6">
+	  legal certainty
+        </li>
+      </ul>
+   </div>
+
+   <div class="row"><!--! new row ========================================== -->
+     <a name="private-users"></a>
+     <h2 i18n:translate="benefits-for-users">For Private Users.</h2>
+     
+     <ul>
+       <li i18n:translate="benefits-for-users-li1">
+	 no criminalization of users
+       </li>
+       <li i18n:translate="benefits-for-users-li1">
+	 Sponsors & patronage
+       </li>
+       <li i18n:translate="benefits-for-users-li1">
+	 private events
+       </li>
+       <li i18n:translate="benefits-for-users-li1">
+	 comprehensive choice in free music
+       </li>
+       <li i18n:translate="benefits-for-users-li1">
+	  legal downloads
+       </li>
+       <li i18n:translate="benefits-for-users-li1">
+	 free &amp; legal private usage, incl. swapping, remixing; background music for user generated videos, private websites and podcasts
+       </li>
+     </ul>
+   </div>
+
+
+   <div class="row"><!--! new row ========================================== -->
+     <a name="edu-soc"></a>
+     <h2 i18n:translate="benefits-for-edu-and-soc">For Educational Services and Society.</h2>
+     
+     <ul>
+       <li i18n:translate="benefits-for-edu-and-soc-li1">
+	 events & performances at school and other educational authorities
+       </li>
+       <li i18n:translate="benefits-for-edu-and-soc-li1">
+	 a vast pool of free licensed music
+       </li>
+       <li i18n:translate="benefits-for-edu-and-soc-li1">
+	 promotion of projects in culture to support common people as prosumers
+       </li>
+       <li i18n:translate="benefits-for-edu-and-soc-li1">
+	 educational offers
+       </li>
+       <li i18n:translate="benefits-for-edu-and-soc-li1">
+	 supporting young and non-established creatives
+       </li>
+       <li i18n:translate="benefits-for-edu-and-soc-li1">
+	 legal handling of music has to be simplified
+       </li>
+     </ul>
+   </div>
+
+       
+  </tal:block>
+</html>
