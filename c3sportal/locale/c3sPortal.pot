@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-31 12:13+0100\n"
+"POT-Creation-Date: 2012-01-31 15:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "about-definition-p3"
 msgstr ""
 
 #. Default: table of contents
-#: c3sportal/templates/about.pt:30
+#: c3sportal/templates/about.pt:30 c3sportal/templates/benefits.pt:20
 msgid "table-of-contents"
 msgstr ""
 
@@ -693,78 +693,352 @@ msgstr ""
 msgid "dropdown-about-rules"
 msgstr ""
 
-#. Default: Support
+#. Default: Benefits
 #: c3sportal/templates/base.pt:50
+msgid "menu-dropdown-benefits"
+msgstr ""
+
+#. Default: ...for members
+#: c3sportal/templates/base.pt:52
+msgid "dropdown-benefit-members"
+msgstr ""
+
+#. Default: ...for distributors, platforms and labels
+#: c3sportal/templates/base.pt:53
+msgid "dropdown-benefit-distributors"
+msgstr ""
+
+#. Default: ...for licensees
+#: c3sportal/templates/base.pt:54
+msgid "dropdown-benefit-licensees"
+msgstr ""
+
+#. Default: ...for promoters
+#: c3sportal/templates/base.pt:55
+msgid "dropdown-benefit-promoters"
+msgstr ""
+
+#. Default: ...for private users
+#: c3sportal/templates/base.pt:56
+msgid "dropdown-benefit-private"
+msgstr ""
+
+#. Default: ...for education and society
+#: c3sportal/templates/base.pt:57
+msgid "dropdown-benefit-edu-soc"
+msgstr ""
+
+#. Default: Support
+#: c3sportal/templates/base.pt:61
 msgid "menu-dropdown-support"
 msgstr ""
 
 #. Default: Register
-#: c3sportal/templates/base.pt:52
+#: c3sportal/templates/base.pt:63
 msgid "dropdown-support-register"
 msgstr ""
 
 #. Default: Join the team
-#: c3sportal/templates/base.pt:53
+#: c3sportal/templates/base.pt:64
 msgid "dropdown-support-team"
 msgstr ""
 
 #. Default: KnowledgeBase
-#: c3sportal/templates/base.pt:62
+#: c3sportal/templates/base.pt:73
 msgid "menu-dropdown-knowledgebase"
 msgstr ""
 
 #. Default: foo
-#: c3sportal/templates/base.pt:64
+#: c3sportal/templates/base.pt:75
 msgid "dropdown-knowledgebase-"
 msgstr ""
 
 #. Default: Contact
-#: c3sportal/templates/base.pt:67
+#: c3sportal/templates/base.pt:78
 msgid "menu-contact"
 msgstr ""
 
-#: c3sportal/templates/base.pt:69
+#: c3sportal/templates/base.pt:80
 msgid "Dropdown"
 msgstr ""
 
 #. Default: Support C3S
-#: c3sportal/templates/base.pt:86
+#: c3sportal/templates/base.pt:97
 msgid "sidebar-support-C3S"
 msgstr ""
 
 #. Default: Feedback
-#: c3sportal/templates/base.pt:88
+#: c3sportal/templates/base.pt:99
 msgid "sidebar-feedback"
 msgstr ""
 
 #. Default: Donate
-#: c3sportal/templates/base.pt:90
+#: c3sportal/templates/base.pt:101
 msgid "sidebar-donate"
 msgstr ""
 
 #. Default: Join the team
-#: c3sportal/templates/base.pt:92
+#: c3sportal/templates/base.pt:103
 msgid "sidebar-join"
 msgstr ""
 
 #. Default: OMC Membership
-#: c3sportal/templates/base.pt:94
+#: c3sportal/templates/base.pt:105
 msgid "sidebar-omc-membership"
 msgstr ""
 
 #. Default: Upcoming Events
-#: c3sportal/templates/base.pt:97
+#: c3sportal/templates/base.pt:108
 msgid "sidebar-upcoming-events"
 msgstr ""
 
 #. Default: Link
-#: c3sportal/templates/base.pt:102
+#: c3sportal/templates/base.pt:113
 msgid "link"
 msgstr ""
 
 #. Default: Choose a Language
-#: c3sportal/templates/base.pt:106
+#: c3sportal/templates/base.pt:117
 msgid "choose-a-language"
+msgstr ""
+
+#. Default: Key Benefits
+#: c3sportal/templates/benefits.pt:12
+msgid "headline-key-benefits"
+msgstr ""
+
+#. Default: At this moment, C3S hasn't been founded as collecting society yet. But
+#. the concept has been developed. Have a look at the benefits of a Creative
+#. Commons Collecting Society here:
+#: c3sportal/templates/benefits.pt:14
+msgid "benefits-intro"
+msgstr ""
+
+#. Default: For Members
+#: c3sportal/templates/benefits.pt:22
+msgid "for-members"
+msgstr ""
+
+#. Default: For Distributors, Digital Platforms and Labels
+#: c3sportal/templates/benefits.pt:24
+msgid "for-distributors"
+msgstr ""
+
+#. Default: For Licensees
+#: c3sportal/templates/benefits.pt:26
+msgid "for-licensees"
+msgstr ""
+
+#. Default: For Promoters
+#: c3sportal/templates/benefits.pt:28
+msgid "for-promoters"
+msgstr ""
+
+#. Default: For private Users
+#: c3sportal/templates/benefits.pt:30
+msgid "for-private-users"
+msgstr ""
+
+#. Default: For Educational Services and Society
+#: c3sportal/templates/benefits.pt:32
+msgid "for-edu-and-soc"
+msgstr ""
+
+#. Default: For members.
+#: c3sportal/templates/benefits.pt:41
+msgid "benefits-for-members"
+msgstr ""
+
+#. Default: You are <dynamic element>? No matter whether you are professionals,
+#. semi-professionals, hobby musicians or just starting, C3S does cater for your
+#. needs. Because you decide how it is going to be like!
+#: c3sportal/templates/benefits.pt:43
+msgid "benefits-for-members-intro"
+msgstr ""
+
+#. Default: C3S has been drafted with <dynamic element> in mind - there's no other
+#. people who can join C3S as a member.
+#: c3sportal/templates/benefits.pt:48
+msgid "benefits-for-members-li1"
+msgstr ""
+
+#. Default: Each member will be <dynamic element> from the first day on.
+#: c3sportal/templates/benefits.pt:51
+msgid "benefits-for-members-li2"
+msgstr ""
+
+#. Default: Licensing workflow will be highly simplified. <dynamic element> - at
+#. your conditions.
+#: c3sportal/templates/benefits.pt:54
+msgid "benefits-for-members-li3"
+msgstr ""
+
+#. Default: C3S will be available and active all over Europe. Therefore, your
+#. <dynamic element>.
+#: c3sportal/templates/benefits.pt:57
+msgid "benefits-for-members-li4"
+msgstr ""
+
+#. Default: You decide which of your works are to bee administered by C3S. There's
+#. <dynamic element> of all of your works.
+#: c3sportal/templates/benefits.pt:60
+msgid "benefits-for-members-li5"
+msgstr ""
+
+#. Default: <dynamic element> wherever possible. Anytime your song is played, it is
+#. you who will receive royalties - no one else. A distribution based on statistics
+#. will apply exceptionally only.
+#: c3sportal/templates/benefits.pt:63
+msgid "benefits-for-members-li6"
+msgstr ""
+
+#. Default: For distributors, digital platforms and labels.
+#: c3sportal/templates/benefits.pt:72
+msgid "benefits-for-distributors"
+msgstr ""
+
+#. Default: You are offering Creative Commons music for <dynamic element>? You're
+#. running a <dynamic element>? In no way we want to compete with you - in a joint
+#. effort with you, we want to display the vast range of free licensed music as a
+#. compelling alternative.
+#: c3sportal/templates/benefits.pt:74
+msgid "benefits-for-distributors-intro"
+msgstr ""
+
+#. Default: Increased visibility of your services and higher potential to draw
+#. musicians towards free licenses sets <dynamic element> compared to providers of
+#. traditionally licensed works.
+#: c3sportal/templates/benefits.pt:79
+msgid "benefits-for-distributors-li1"
+msgstr ""
+
+#. Default: Free licenses become more attractive through the C3S´s extensive
+#. repertoire, reachable through a single interface.
+#: c3sportal/templates/benefits.pt:82
+msgid "benefits-for-distributors-li2"
+msgstr ""
+
+#. Default: The C3S serves as a central communicator; artists using free licenses
+#. can easily be reached.
+#: c3sportal/templates/benefits.pt:85
+msgid "benefits-for-distributors-li3"
+msgstr ""
+
+#. Default: Music promotion and public relation acitivites will become easier and
+#. legalised. This goes for airplay, the spreading of content for no charge, the
+#. use of widgets for fans, user generated content and many more campaign
+#. strategies.
+#: c3sportal/templates/benefits.pt:88
+msgid "benefits-for-distributors-li4"
+msgstr ""
+
+#. Default: Your own services and USPs remain in your hand. As before you are the
+#. public agent of publication and distribution of content.
+#: c3sportal/templates/benefits.pt:91
+msgid "benefits-for-distributors-li5"
+msgstr ""
+
+#. Default: For Licensees.
+#: c3sportal/templates/benefits.pt:100
+msgid "benefits-for-licensees"
+msgstr ""
+
+#. Default: You play or use music in radio or television? You use music in blogs
+#. and podcasts? You procure music for adverts, film or games? Our repertoire is
+#. complete and spans all styles. It is free for private use. It features clear,
+#. standardised conditions and prices for commercial use.
+#: c3sportal/templates/benefits.pt:102
+msgid "benefits-for-licensees-intro"
+msgstr ""
+
+#. Default: A broad repertoire of free music is made available through a single
+#. interface for the first time.
+#: c3sportal/templates/benefits.pt:107
+msgid "benefits-for-licensees-li1"
+msgstr ""
+
+#. Default: The C3S offers the comfort of access to the repertoire of all member
+#. labels, distributors and independent artists through a single interface.
+#: c3sportal/templates/benefits.pt:110
+msgid "benefits-for-licensees-li2"
+msgstr ""
+
+#. Default: The C3S offers easy licensing conditions for every single work.
+#: c3sportal/templates/benefits.pt:113
+msgid "benefits-for-licensees-li3"
+msgstr ""
+
+#. Default: Benefits and <dynamic element> can be made use of as usual.
+#: c3sportal/templates/benefits.pt:116
+msgid "benefits-for-licensees-li4"
+msgstr ""
+
+#. Default: The fees will be structured clearly and transparently.
+#: c3sportal/templates/benefits.pt:119
+msgid "benefits-for-licensees-li5"
+msgstr ""
+
+#. Default: <dynamic element> by an automated workflow at low licensing fees.
+#: c3sportal/templates/benefits.pt:122
+msgid "benefits-for-licensees-li6"
+msgstr ""
+
+#. Default: C3S will offer <dynamic element> for all parties.
+#: c3sportal/templates/benefits.pt:125
+msgid "benefits-for-licensees-li7"
+msgstr ""
+
+#. Default: For Promoters.
+#: c3sportal/templates/benefits.pt:132
+msgid "benefits-for-promoters"
+msgstr ""
+
+#. Default: You are organizing <dynamic element>? If so, low cost, simple license
+#. management and an exact forecast in cost is relevant to you.
+#: c3sportal/templates/benefits.pt:134
+msgid "benefits-for-promoters-intro"
+msgstr ""
+
+#. Default: Usage of musical works under free licenses will be <dynamic element>.
+#: c3sportal/templates/benefits.pt:139
+msgid "benefits-for-promoters-li1"
+msgstr ""
+
+#. Default: Licensing tarifs are going to be drafted clearly and at reasonable cost
+#. - an easy and <dynamic element>
+#: c3sportal/templates/benefits.pt:142
+msgid "benefits-for-promoters-li2"
+msgstr ""
+
+#. Default: Cost of <dynamic element> of an event.
+#: c3sportal/templates/benefits.pt:145
+msgid "benefits-for-promoters-li3"
+msgstr ""
+
+#. Default: one contact person for licensing of Creative Commons and free licensed
+#. works
+#: c3sportal/templates/benefits.pt:148
+msgid "benefits-for-promoters-li4"
+msgstr ""
+
+#. Default: clearly understandable conditions of usage
+#: c3sportal/templates/benefits.pt:151
+msgid "benefits-for-promoters-li5"
+msgstr ""
+
+#. Default: legal certainty
+#: c3sportal/templates/benefits.pt:154
+msgid "benefits-for-promoters-li6"
+msgstr ""
+
+#. Default: For Private Users.
+#: c3sportal/templates/benefits.pt:162
+msgid "benefits-for-users"
+msgstr ""
+
+#. Default: no criminalization of users
+#: c3sportal/templates/benefits.pt:165
+msgid "benefits-for-users-li1"
 msgstr ""
 
 #. Default: Welcome to ${C3S}, a new Collecting Society being booted up.
