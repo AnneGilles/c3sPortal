@@ -47,6 +47,17 @@
               </ul>
             </li>
 	    <li class="dropdown" data-dropdown="dropdown">
+              <a href="/benefits" class="dropdown-toggle" i18n:translate="menu-dropdown-benefits">Benefits</a>
+              <ul class="dropdown-menu">
+                <li><a href="/benefits#members" i18n:translate="dropdown-benefit-members">...for members</a></li>
+                <li><a href="/benefits#distributors" i18n:translate="dropdown-benefit-distributors">...for distributors, platforms and labels</a></li>
+                <li><a href="/benefits#licensees" i18n:translate="dropdown-benefit-licensees">...for licensees</a></li>
+                <li><a href="/benefits#promoters" i18n:translate="dropdown-benefit-promoters">...for promoters</a></li>
+                <li><a href="/benefits#private-users" i18n:translate="dropdown-benefit-private">...for private users</a></li>
+                <li><a href="/benefits#edu-soc" i18n:translate="dropdown-benefit-edu-soc">...for education and society</a></li>
+              </ul>
+            </li>
+	    <li class="dropdown" data-dropdown="dropdown">
               <a href="/about" class="dropdown-toggle" i18n:translate="menu-dropdown-support">Support</a>
               <ul class="dropdown-menu">
                 <li><a href="/support#register" i18n:translate="dropdown-support-register">Register</a></li>
