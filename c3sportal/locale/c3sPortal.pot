@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-21 05:16+0100\n"
+"POT-Creation-Date: 2012-01-31 10:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,14 +23,14 @@ msgid "headline-about_C3S"
 msgstr ""
 
 #. Default: What is C3S?
-#: c3sportal/templates/about.pt:15
+#: c3sportal/templates/about.pt:14
 msgid "headline-what_is_C3S"
 msgstr ""
 
 #. Default: C3S - Creative Commons Collecting Society - is the working title of a
 #. project to establish a new European Collecting Society for musical works,
 #. especially those works published under a Creative Commons license.
-#: c3sportal/templates/about.pt:17
+#: c3sportal/templates/about.pt:16
 msgid "about-definition-p1"
 msgstr ""
 
@@ -40,7 +40,7 @@ msgstr ""
 #. collecting societies for musical works. It will be a one-stop-shop for its
 #. members when it comes to work-related contracts and accounting and will be able
 #. to take over on behalf of the creators when dealing with licensees.
-#: c3sportal/templates/about.pt:22
+#: c3sportal/templates/about.pt:21
 msgid "about-definition-p2"
 msgstr ""
 
@@ -49,35 +49,36 @@ msgstr ""
 #. Öffentlichkeitsarbeit. Darüber hinaus unterstützen wir kulturelle Projekte, die
 #. die Arbeit von nicht-etablierten und Nachwuchskünstlern nachhaltig erleichtern
 #. und fördern.
-#: c3sportal/templates/about.pt:27
+#: c3sportal/templates/about.pt:26
 msgid "about-definition-p3"
 msgstr ""
 
-#: c3sportal/templates/about.pt:33
-msgid "table of contents"
+#. Default: table of contents
+#: c3sportal/templates/about.pt:32
+msgid "table-of-contents"
 msgstr ""
 
-#: c3sportal/templates/about.pt:35 c3sportal/templates/home.pt:38
+#: c3sportal/templates/about.pt:34 c3sportal/templates/home.pt:38
 msgid "What is C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:37 c3sportal/templates/home.pt:40
+#: c3sportal/templates/about.pt:36 c3sportal/templates/home.pt:40
 msgid "Who is doing C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:39 c3sportal/templates/home.pt:42
+#: c3sportal/templates/about.pt:38 c3sportal/templates/home.pt:42
 msgid "Why do we want to start C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:41 c3sportal/templates/home.pt:44
+#: c3sportal/templates/about.pt:40 c3sportal/templates/home.pt:44
 msgid "What is C3S trying to become? What not?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:43 c3sportal/templates/home.pt:46
+#: c3sportal/templates/about.pt:42 c3sportal/templates/home.pt:46
 msgid "How is this project being realized?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:45 c3sportal/templates/home.pt:48
+#: c3sportal/templates/about.pt:44 c3sportal/templates/home.pt:48
 msgid "IRC Channel"
 msgstr ""
 
@@ -88,21 +89,8 @@ msgstr ""
 
 #. Default: C3S consists of a group of people that initiated the project and a
 #. growing number of active supporters helping and counseling.
-#: c3sportal/templates/about.pt:58
+#: c3sportal/templates/about.pt:65
 msgid "about-background-p1"
-msgstr ""
-
-#. Default: The team members represent a wide spectrum of interests and disciplines
-#. and each add their perspective and view of different aspects. We want to include
-#. all possible intentions and competences of people who want to add to this
-#. project, TODO...
-#: c3sportal/templates/about.pt:66
-msgid "about-background-p3"
-msgstr ""
-
-#. Default: TODO
-#: c3sportal/templates/about.pt:70
-msgid "about-background-p4"
 msgstr ""
 
 #. Default: Home
@@ -251,8 +239,9 @@ msgid ""
 "approved collecting society to happen at the end of 2012."
 msgstr ""
 
+#. Default: Read more...
 #: c3sportal/templates/home.pt:31
-msgid "Read more..."
+msgid "read-more"
 msgstr ""
 
 #: c3sportal/templates/home.pt:36
