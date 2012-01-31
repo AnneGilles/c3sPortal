@@ -15,5 +15,5 @@ python setup.py update_catalog
 
 # compile catalog:
 # will compile the language specific catalog to the relevant .mo
-#python setup.py compile_catalog
+python setup.py compile_catalog
 

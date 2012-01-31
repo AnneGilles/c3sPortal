@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-31 10:29+0100\n"
+"POT-Creation-Date: 2012-01-31 11:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,57 +40,191 @@ msgstr ""
 #. collecting societies for musical works. It will be a one-stop-shop for its
 #. members when it comes to work-related contracts and accounting and will be able
 #. to take over on behalf of the creators when dealing with licensees.
-#: c3sportal/templates/about.pt:21
+#: c3sportal/templates/about.pt:20
 msgid "about-definition-p2"
 msgstr ""
 
-#. Default: Grundlegend für unsere Tätigkeit ist die Förderung der Verbreitung von
-#. CreativeCommons-Lizenzen durch Beratung, Workshops, Vorträge und
-#. Öffentlichkeitsarbeit. Darüber hinaus unterstützen wir kulturelle Projekte, die
-#. die Arbeit von nicht-etablierten und Nachwuchskünstlern nachhaltig erleichtern
-#. und fördern.
-#: c3sportal/templates/about.pt:26
+#. Default: Support and dissemination of Creative Commons licensing by consulting
+#. and workshops, by lectures and public relations is essential to our work. In
+#. addition to that, we promote projects in culture which facilitate and support
+#. the work of independent as well as young artists in a sustainable way.
+#: c3sportal/templates/about.pt:24
 msgid "about-definition-p3"
 msgstr ""
 
 #. Default: table of contents
-#: c3sportal/templates/about.pt:32
+#: c3sportal/templates/about.pt:30
 msgid "table-of-contents"
 msgstr ""
 
-#: c3sportal/templates/about.pt:34 c3sportal/templates/home.pt:38
+#: c3sportal/templates/about.pt:32 c3sportal/templates/home.pt:38
 msgid "What is C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:36 c3sportal/templates/home.pt:40
+#: c3sportal/templates/about.pt:34 c3sportal/templates/home.pt:40
 msgid "Who is doing C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:38 c3sportal/templates/home.pt:42
+#: c3sportal/templates/about.pt:36 c3sportal/templates/home.pt:42
 msgid "Why do we want to start C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:40 c3sportal/templates/home.pt:44
+#: c3sportal/templates/about.pt:38 c3sportal/templates/home.pt:44
 msgid "What is C3S trying to become? What not?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:42 c3sportal/templates/home.pt:46
+#: c3sportal/templates/about.pt:40 c3sportal/templates/home.pt:46
 msgid "How is this project being realized?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:44 c3sportal/templates/home.pt:48
+#: c3sportal/templates/about.pt:42 c3sportal/templates/home.pt:48
 msgid "IRC Channel"
 msgstr ""
 
 #. Default: The Team - Who is behind C3S?
-#: c3sportal/templates/about.pt:56
+#: c3sportal/templates/about.pt:54
 msgid "headline-about-team"
 msgstr ""
 
 #. Default: C3S consists of a group of people that initiated the project and a
 #. growing number of active supporters helping and counseling.
-#: c3sportal/templates/about.pt:65
+#: c3sportal/templates/about.pt:63
 msgid "about-background-p1"
+msgstr ""
+
+#. Default: Formally C3S is a project of OpenMusicContest.org e.V (a non-profit
+#. association) in coordination with other independent persons. You can read up on
+#. why we decided to choose this path here.
+#: c3sportal/templates/about.pt:66
+msgid "about-background-p2"
+msgstr ""
+
+#. Default: Representing various stakeholders and domains, all individual team
+#. members, no matter if supporter or initiator, add their personal view
+#. complementing each other. We want to consider and integrate all intentions and
+#. skills of those people who all together can help in shaping an improved
+#. environment for independent artists. This is essential for establishing a
+#. collecting society that embraces digital society - it takes composers and
+#. writers, musicians, users, but as well it's lawyers, economists, software
+#. developers and netizens who are needed... to name but a few.
+#: c3sportal/templates/about.pt:73
+msgid "about-background-p3"
+msgstr ""
+
+#. Default: We are happy to receive feedback from you and everybody. Feedback, be
+#. it positive or negative, is an important basis for a project like this:
+#. collectively form a collecting society. Most of all we need support. Everybody
+#. who wants to join us and help in whatever way can choose from a wide range of
+#. items, see <dynamic element>. We are looking forward to hearing from you!
+#: c3sportal/templates/about.pt:80
+msgid "about-background-p4"
+msgstr ""
+
+#. Default: No matter who the members of the *construction team* are: When C3S has
+#. been founded, according to the statutes only musicians (performers) and
+#. composers and writers respectively (creators) can become members of C3S.
+#. Supporters of C3S can join a supporting association or be elected into the
+#. advisory board of C3S.
+#: c3sportal/templates/about.pt:84
+msgid "about-background-p5"
+msgstr ""
+
+#. Default: The Team
+#: c3sportal/templates/about.pt:95
+msgid "the-team"
+msgstr ""
+
+#. Default: Active Supporters
+#: c3sportal/templates/about.pt:107
+msgid "active-supporters"
+msgstr ""
+
+#. Default: Partners
+#: c3sportal/templates/about.pt:119
+msgid "partners"
+msgstr ""
+
+#. Default: The Motivation - Why another collecting society?
+#: c3sportal/templates/about.pt:143
+msgid "headline-about-motivation"
+msgstr ""
+
+#. Default: Lack of market integration of Creative Commons licensed works
+#: c3sportal/templates/about.pt:150
+msgid "about-motivation-market-integration"
+msgstr ""
+
+#. Default: Musicians must be able to easily make use of the commercial option of
+#. free licenses without passing on advantages for non-commercial usage. Also, they
+#. must not depend on commercially available licensing platforms. A collecting
+#. society has no economic intentions besides those of its members.
+#. Default: Take the download catalogue of Jamendo, and you'll find more than
+#. 300,000 titles by almost 40,000 artists. Free Music Archive is offering about
+#. 25,000 tracks. In addition, there are various dedicated platforms and
+#. aggregators, netlabels and providers of free licensed music - all of them may
+#. benefit from C3S.
+#. Default: Vimeo for example in cooperation with Free Music Archive offers a
+#. library of podcast suitable music. More examples you can find at previously
+#. mentioned outlets, but also at content providers such as flickr and YouTube.
+#. Moreover, in broadcast increasingly content is made use of and produced that has
+#. been licensed under Creative Commons (Link:
+#. http://wiki.creativecommons.org/Broadcasting). This can be observed at BBC and
+#. Norwegian NRK as well as with German NDR and BR, or Al Jazeera.
+#. Default: Creators might want to allow for a free download for personal use. On
+#. the other hand, they would like to control licensing and distribution of their
+#. works, and they expect to be paid a fee for commercial use. At this moment, it's
+#. only providers like Jamendo or rightclearing.com (restorm.com) who are offering
+#. that. The other way is to negotiate individual contracts which are uncomfortable
+#. for both, the artist as well as the licensee.
+#. Default: Fans and listeners of music are not familiar with benefits and concept
+#. of Creative Commons - if they know them at all. Moreover, it's often the same
+#. with licensees and artists. Even worse, Creative Commons services sometimes are
+#. mistaken for being unconditionally free of cost and entirely free of
+#. constraints.
+#: c3sportal/templates/about.pt:151 c3sportal/templates/about.pt:157
+#: c3sportal/templates/about.pt:163 c3sportal/templates/about.pt:174
+#: c3sportal/templates/about.pt:181
+msgid "about-motivation-p1"
+msgstr ""
+
+#. Default: Increasing number of works under CC licenses
+#: c3sportal/templates/about.pt:156
+msgid "about-motivation-increasing-number-cc"
+msgstr ""
+
+#. Default: Growing acceptance of Creative Commons licenses
+#: c3sportal/templates/about.pt:162
+msgid "about-motivation-cc-acceptance"
+msgstr ""
+
+#. Default: A large part of Creative Commons licensed works is using the NC
+#. (non-commercial) license
+#: c3sportal/templates/about.pt:172
+msgid "about-motivation-cc-nc"
+msgstr ""
+
+#. Default: The potential of Creative Commons is neither fully recognized nor are
+#. Creative Commons licenses deployed to full avail.
+#: c3sportal/templates/about.pt:180
+msgid "about-motivation-cc-unused-potential"
+msgstr ""
+
+#. Default: There's only a few collecting societies which are compatible with
+#. Creative Commons licenses,
+#: c3sportal/templates/about.pt:186
+msgid "about-motivation-cs-cc-incompat"
+msgstr ""
+
+#. Default: or at least running test projects. Unlike in the United States, members
+#. of e.g. German collecting society GEMA may not license their works under CC
+#. licenses.
+#: c3sportal/templates/about.pt:187
+msgid "about-motivation-cc-cs-p1"
+msgstr ""
+
+#. Default: The Goals - What is C3S aiming at?
+#: c3sportal/templates/about.pt:196
+msgid "headline-about-goals"
 msgstr ""
 
 #. Default: Home

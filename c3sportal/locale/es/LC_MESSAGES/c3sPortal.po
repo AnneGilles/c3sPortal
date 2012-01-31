@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-31 10:29+0100\n"
+"POT-Creation-Date: 2012-01-31 11:26+0100\n"
 "PO-Revision-Date: 2012-01-12 15:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -43,59 +43,57 @@ msgstr ""
 #. members when it comes to work-related contracts and accounting and will be
 #. able
 #. to take over on behalf of the creators when dealing with licensees.
-#: c3sportal/templates/about.pt:21
+#: c3sportal/templates/about.pt:20
 msgid "about-definition-p2"
 msgstr ""
 
-#. Default: Grundlegend für unsere Tätigkeit ist die Förderung der Verbreitung
-#. von
-#. CreativeCommons-Lizenzen durch Beratung, Workshops, Vorträge und
-#. Öffentlichkeitsarbeit. Darüber hinaus unterstützen wir kulturelle Projekte,
-#. die
-#. die Arbeit von nicht-etablierten und Nachwuchskünstlern nachhaltig
-#. erleichtern
-#. und fördern.
-#: c3sportal/templates/about.pt:26
+#. Default: Support and dissemination of Creative Commons licensing by
+#. consulting
+#. and workshops, by lectures and public relations is essential to our work. In
+#. addition to that, we promote projects in culture which facilitate and
+#. support
+#. the work of independent as well as young artists in a sustainable way.
+#: c3sportal/templates/about.pt:24
 msgid "about-definition-p3"
 msgstr ""
 
 #. Default: table of contents
-#: c3sportal/templates/about.pt:32
+#: c3sportal/templates/about.pt:30
 msgid "table-of-contents"
 msgstr ""
 
-#: c3sportal/templates/about.pt:34 c3sportal/templates/home.pt:38
+#: c3sportal/templates/about.pt:32 c3sportal/templates/home.pt:38
 msgid "What is C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:36 c3sportal/templates/home.pt:40
+#: c3sportal/templates/about.pt:34 c3sportal/templates/home.pt:40
 msgid "Who is doing C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:38 c3sportal/templates/home.pt:42
+#: c3sportal/templates/about.pt:36 c3sportal/templates/home.pt:42
 msgid "Why do we want to start C3S?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:40 c3sportal/templates/home.pt:44
+#: c3sportal/templates/about.pt:38 c3sportal/templates/home.pt:44
 msgid "What is C3S trying to become? What not?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:42 c3sportal/templates/home.pt:46
+#: c3sportal/templates/about.pt:40 c3sportal/templates/home.pt:46
 msgid "How is this project being realized?"
 msgstr ""
 
-#: c3sportal/templates/about.pt:44 c3sportal/templates/home.pt:48
+#: c3sportal/templates/about.pt:42 c3sportal/templates/home.pt:48
 msgid "IRC Channel"
 msgstr ""
 
 #. Default: The Team - Who is behind C3S?
-#: c3sportal/templates/about.pt:56
+#: c3sportal/templates/about.pt:54
 msgid "headline-about-team"
 msgstr ""
 
 #. Default: C3S consists of a group of people that initiated the project and a
 #. growing number of active supporters helping and counseling.
-#: c3sportal/templates/about.pt:65
+#: c3sportal/templates/about.pt:63
 msgid "about-background-p1"
 msgstr ""
 
@@ -384,16 +382,4 @@ msgstr ""
 #: c3sportal/templates/support.pt:63
 msgid "support-translate-p2"
 msgstr ""
-
-#~ msgid "table of contents"
-#~ msgstr ""
-
-#~ msgid "about-background-p3"
-#~ msgstr ""
-
-#~ msgid "about-background-p4"
-#~ msgstr ""
-
-#~ msgid "Read more..."
-#~ msgstr ""
 
