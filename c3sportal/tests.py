@@ -58,3 +58,9 @@ class TestMyView(unittest.TestCase):
         request = DummyReqWithAcceptLangAttr()
         info = support_view(request)
         self.assertTrue('footer' in info)
+
+    def test_benefits_view(self):
+        from .views import benefits_view
+        request = DummyReqWithAcceptLangAttr()
+        info = benefits_view(request)
+        self.assertTrue('footer' in info)
