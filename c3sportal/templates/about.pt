@@ -16,15 +16,13 @@
 	<p i18n:translate="about-definition-p1">
 	  C3S - Creative Commons Collecting Society - is the working title of a project to establish a new European Collecting Society for musical works, especially those works published under a Creative Commons license.
 	</p>
-	<!-- 	Die C3S – Creative Commons Collecting Society – ist eine Initiative zur Gründung einer europäischen Verwertungsgesellschaft für  musikalische Werke, die unter CreativeCommons- und anderen freien Lizenzen veröffentlicht werden. -->
 
 	<p i18n:translate="about-definition-p2">
 	  Once officially approved by the German office for patents and brands (Deutsches Patent- und Markenamt) and other relevant institutions in other countries C3S will be a full-fledged alternative comparing to existing collecting societies for musical works. It will be a one-stop-shop for its members when it comes to work-related contracts and accounting and will be able to take over on behalf of the creators when dealing with licensees.
 	</p>
-	<!-- Nach Zulassung durch das <strong>Deutsche Patent- und Markenamt</strong> wird die C3S eine vollwertige Alternative zu bestehenden Verwertungsgesellschaften für Musik bieten. Sie wird ihre Mitglieder als zentraler Ansprech-, Vertrags- und Abrechnungspartner gegenüber Lizenznehmern vertreten." -->
 
 	<p i18n:translate="about-definition-p3">
-	  Grundlegend für unsere Tätigkeit ist die Förderung der Verbreitung von CreativeCommons-Lizenzen durch Beratung, Workshops, Vorträge und Öffentlichkeitsarbeit. Darüber hinaus  unterstützen wir kulturelle Projekte, die die Arbeit von nicht-etablierten und Nachwuchskünstlern nachhaltig erleichtern und fördern.
+	  Support and dissemination of Creative Commons licensing by consulting and workshops, by lectures and public relations is essential to our work. In addition to that, we promote projects in culture which facilitate and support the work of independent as well as young artists in a sustainable way.
 	</p>
       </div>
 
@@ -73,21 +71,18 @@
       
       <div class="span5">
 	<p i18n:translate="about-background-p3">
-	  The team members represent a wide spectrum of interests and disciplines and each add their perspective and view of different aspects. We want to include all possible intentions and competences of people who want to add to this project, TODO...
+	  Representing various stakeholders and domains, all individual team members, no matter if supporter or initiator, add their personal view complementing each other. We want to consider and integrate all intentions and skills of those people who all together can help in shaping an improved environment for independent artists. This is essential for establishing a collecting society that embraces digital society - it takes composers and writers, musicians, users, but as well it's lawyers, economists, software developers and netizens who are needed... to name but a few.
 	</p>
-	<!--	Als Vertreter verschiedener Interessengruppen und Disziplinen bringen die einzelnen Team-Mitglieder, gleichgültig ob Supporter oder Initiator, individuelle und sich ergänzende Perspektiven ein. Wir möchten die Interessen und die Kompetenz all derer berücksichtigen, die gemeinsam dazu beitragen können, unabhängigen Künstlern bzw. Urhebern eine bessere Position in der Musikwirtschaft zu verschaffen. Das ist grundlegend für den Aufbau einer Verwertungsgesellschaft, die der digitalen Gesellschaft gerecht wird – es braucht Komponisten und Texter, Musiker, Nutzer, aber auch Juristen, Wirtschaftsvertreter, Entwickler und Netzaktivisten, um nur einen Ausschnitt zu nennen. -->
       </div>
       
       
       <div class="span5">
 	<p i18n:translate="about-background-p4">
 	  We are happy to receive feedback from you and everybody. Feedback, be it positive or negative, is an important basis for a project like this: collectively form a collecting society. Most of all we need support. Everybody who wants to join us and help in whatever way can choose from a wide range of items, see <a href="/support">the support page</a>. We are looking forward to hearing from you!
-	</p><!-- 	Die C3S ist offen für Feedback und konstruktive Kritik. Dies ist zentraler Bestandteil des Konzepts einer gemeinsam zu formenden Verwertungsgesellschaft. Vor allem aber benötigen wir Eure Unterstützung. Wer sich aktiv bei der C3S beteiligen oder sie unterstützen möchte, findet auf der Support-Seite (Link) verschiedene Möglichkeiten – wir freuen uns auf Euch! -->
-
+	</p>
+	
 	<p i18n:translate="about-background-p5">
-	  However, the members of the "construction team" ... TODO
-
-	  Gleichgültig, wer derzeit zum Kern des Aufbau-Teams zählt: Nach Gründung der C3S können unter Beibehaltung des Satzungsentwurfs nur Musiker (Aufführende) und Komponisten bzw. Texter (Urheber) Mitglied der C3S werden. Unterstützer der C3S werden in einem Förderverein oder dem nicht stimmberechtigten Beirat aktiv sein können.
+	  No matter who the members of the *construction team* are: When C3S has been founded, according to the statutes only musicians (performers) and composers and writers respectively (creators) can become members of C3S. Supporters of C3S can join a supporting association or be elected into the advisory board of C3S.
 	</p>
       </div>
 
