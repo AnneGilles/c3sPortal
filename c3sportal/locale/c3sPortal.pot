@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-31 11:34+0100\n"
+"POT-Creation-Date: 2012-01-31 12:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,6 +225,428 @@ msgstr ""
 #. Default: The Goals - What is C3S aiming at?
 #: c3sportal/templates/about.pt:196
 msgid "headline-about-goals"
+msgstr ""
+
+#. Default: Goals in administration and organization
+#: c3sportal/templates/about.pt:199
+msgid "headline-about-goals-admin"
+msgstr ""
+
+#. Default: enabling commercial exploitation of works that have been released under
+#. Creative Commons and other free licences
+#: c3sportal/templates/about.pt:201
+msgid "about-goals-admin-enable-comm-expl"
+msgstr ""
+
+#. Default: representing composers, writers and musicians releasing their works
+#. under Creative Commons or other free licences Europe wide
+#: c3sportal/templates/about.pt:202
+msgid "about-goals-admin-represent"
+msgstr ""
+
+#. Default: democratic vocation by all members
+#: c3sportal/templates/about.pt:203
+msgid "about-goals-admin-vocation"
+msgstr ""
+
+#. Default: full and equal voting rights for each member
+#: c3sportal/templates/about.pt:204
+msgid "about-goals-admin-voting-rights"
+msgstr ""
+
+#. Default: non-exclusive membership
+#: c3sportal/templates/about.pt:205
+msgid "about-goals-admin-non-exclusive"
+msgstr ""
+
+#. Default: membership for creators and performers only – no publishers, producers
+#. or heirs at law
+#: c3sportal/templates/about.pt:206
+msgid "about-goals-admin-creators-performers"
+msgstr ""
+
+#. Default: thorough transparency in licensing plans, management and administration
+#: c3sportal/templates/about.pt:207
+msgid "about-goals-admin-transparency"
+msgstr ""
+
+#. Default: Goals in services
+#: c3sportal/templates/about.pt:212
+msgid "headline-about-goals-service"
+msgstr ""
+
+#. Default: members decide themselves which of their works to select for
+#. administration by C3S - no collective administration
+#: c3sportal/templates/about.pt:214
+msgid "about-goals-services-select"
+msgstr ""
+
+#. Default: introducing a 1:1 distribution of royalties instead of a statistical
+#. distribution key (applicable wherever possible)
+#: c3sportal/templates/about.pt:215
+msgid "about-goals-services-onetoone"
+msgstr ""
+
+#. Default: minimization of administrational cost by highest automization
+#: c3sportal/templates/about.pt:216
+msgid "about-goals-services-minimal"
+msgstr ""
+
+#. Default: membership fee: very low to none (freemium model); revenue in royalties
+#. as close to 100% as possible
+#: c3sportal/templates/about.pt:217
+msgid "about-goals-services-fee"
+msgstr ""
+
+#. Default: maximum in service for young and non-established artists
+#: c3sportal/templates/about.pt:218
+msgid "about-goals-services-maxservice"
+msgstr ""
+
+#. Default: maximum in transparency enabling the user to access all transaction
+#. data and user related analysis reports
+#: c3sportal/templates/about.pt:219
+msgid "about-goals-services-maxtransparence"
+msgstr ""
+
+#. Default: Goals in general
+#: c3sportal/templates/about.pt:224
+msgid "headline-about-goals-general"
+msgstr ""
+
+#. Default: promotion of young artists
+#: c3sportal/templates/about.pt:226
+msgid "about-goals-general-promo"
+msgstr ""
+
+#. Default: support of culture related projects
+#: c3sportal/templates/about.pt:227
+msgid "about-goals-general-culture"
+msgstr ""
+
+#. Default: sustainable support of members and culture in general
+#: c3sportal/templates/about.pt:228
+msgid "about-goals-general-sustainable"
+msgstr ""
+
+#. Default: openness for new technologies and new business models
+#: c3sportal/templates/about.pt:229
+msgid "about-goals-general-openness"
+msgstr ""
+
+#. Default: The Funding - How to organize and fund the project?
+#: c3sportal/templates/about.pt:236
+msgid "headline-about-funding"
+msgstr ""
+
+#. Default: OpenMusicContest.org e.V.
+#: c3sportal/templates/about.pt:239
+msgid "about-funding-omc"
+msgstr ""
+
+#. Default: Temporarily, the working ground for our work and its base will be
+#. ${omc-org-ev}. It enables us to work on building C3S without the need of
+#. immediately founding a second organization. Details on this, and most
+#. importantly which advantages and requirements this implies we have compiled in
+#. our KnowledgeBase
+#: c3sportal/templates/about.pt:240
+msgid "about-funding-omc-p1"
+msgstr ""
+
+#. Default: Presence
+#: c3sportal/templates/about.pt:246
+msgid "about-funding-presence"
+msgstr ""
+
+#. Default: We have been presenting C3S since 2010 at various events. This includes
+#. presentations and workshops as well as discussions and panels. Representatives
+#. of C3S have been invited to ${sigint-2010}, to ${gvu-branchenforum}, to
+#. ${popkomm-mediagate-2010}, to ${transit4} and multiple times to Berlin's music
+#. conference ${all2gethernow}. Moreover, we regularly are attending more events,
+#. such as barcamps, the Mannheim ${future-music-camp}, ${reeperbahn-campus} at
+#. Hamburg, ${c-n-b} at Cologne, but also Germany's
+#. ${chaos-communication-congress}.
+#. Default: The range of tasks is broad... and they are so substantial that we'd
+#. love to ${add-you-to-our-team}. We happily would welcome
+#. ${support-single-limited-projects} too. For example, we'd be glad to see someone
+#. draft a logo for C3S. Apart from that, there are opportunities to work out
+#. ${studies} on selected topics in culture, economics and law. Unfortunately
+#. though, we won't be able to pay you for that - yet.
+#: c3sportal/templates/about.pt:247 c3sportal/templates/about.pt:254
+msgid "about-funding-presence-p1"
+msgstr ""
+
+#. Default: Tasks
+#: c3sportal/templates/about.pt:253
+msgid "about-funding-tasks"
+msgstr ""
+
+#. Default: Funding
+#: c3sportal/templates/about.pt:260
+msgid "about-funding-funding"
+msgstr ""
+
+#. Default: For the moment being, all costs are covered by the team themselves as
+#. long as we are not invited as speakers. We plan to increase the number of
+#. presentations and to intensify PR which means an increase in cost. To allow for
+#. professional work, we have to finance these costs by additional resources.
+#: c3sportal/templates/about.pt:261
+msgid "about-funding-funding-p1"
+msgstr ""
+
+#. Default: The focus is not on funding our work for establishing C3S. We are
+#. working for free as of now, as long as efforts do not excess what's feasible.
+#. Yet, it is travel, accommodation, promotional material, campaigns and events
+#. that won't be available for free.
+#: c3sportal/templates/about.pt:264
+msgid "about-funding-funding-p2"
+msgstr ""
+
+#. Default: To cover our costs we deploy several resources. Most importantly, it's
+#. the membership fees of all the people being so generous and supportive to
+#. officially join ${OpenMusicContestOrg} to help in building C3S. Of course we are
+#. truly thankful for anything you ${flattr-or-donate}. Additionally, we are
+#. looking to find ${companies-and-organizations} as sponsors and supporters.
+#. Finally, we obviously are ${applying-for-grants}.
+#: c3sportal/templates/about.pt:267
+msgid "about-funding-funding-p3"
+msgstr ""
+
+#. Default: The Roadmap - How to get things going?
+#: c3sportal/templates/about.pt:276
+msgid "headline-about-roadmap"
+msgstr ""
+
+#. Default: How will the project be realized?
+#: c3sportal/templates/about.pt:280
+msgid "headline-about-roadmap-realization"
+msgstr ""
+
+#. Default: Anyone involved in the team has a full time job, dedicating their
+#. spare-time to C3S. All scheduled dates within the roadmap therefore are chosen
+#. to include a reasonable buffer.
+#: c3sportal/templates/about.pt:282
+msgid "about-roadmap-p1"
+msgstr ""
+
+#. Default: The first and crucial aim will have been accomplished, as soon as we
+#. are ready to apply for certification as a collecting society at German Patent
+#. and Trade Mark Office (DPMA). In order to achieve that we are active in four
+#. directions:
+#: c3sportal/templates/about.pt:285
+msgid "about-roadmap-p2"
+msgstr ""
+
+#. Default: public - adding supporters and partners
+#: c3sportal/templates/about.pt:289
+msgid "about-roadmap-public"
+msgstr ""
+
+#. Default: economy - developing the business model
+#: c3sportal/templates/about.pt:290
+msgid "about-roadmap-economy"
+msgstr ""
+
+#. Default: technology - modeling the workflow
+#: c3sportal/templates/about.pt:291
+msgid "about-roadmap-technology"
+msgstr ""
+
+#. Default: law - providing the legal foundation
+#: c3sportal/templates/about.pt:292
+msgid "about-roadmap-law"
+msgstr ""
+
+#. Default: Milestone I - Growing the team and establishing a base of supporters
+#: c3sportal/templates/about.pt:298
+msgid "headline-about-roadmap-milestone-1"
+msgstr ""
+
+#. Default: scheduled for: 1st April 2012
+#: c3sportal/templates/about.pt:300
+msgid "about-roadmap-milestone-1-schedule"
+msgstr ""
+
+#. Default: At the same time when the website has been launched, our social media
+#. profiles went online. We are not just aiming at growing a community for a new
+#. collecting society of free licenses. We would like to identify active supporters
+#. and potential team members who are willing to work with us.
+#: c3sportal/templates/about.pt:303
+msgid "about-roadmap-milestone-1-p1"
+msgstr ""
+
+#. Default: To volunteer in supporting us in this truly challenging project is
+#. great, and we really appreciate that. But those whose who will benefit much more
+#. are the members of the upcoming Creative Commons Collecting Society.
+#: c3sportal/templates/about.pt:306
+msgid "about-roadmap-milestone-1-p2"
+msgstr ""
+
+#. Default: A range of options of how to support us, you can find on the support
+#. page.
+#: c3sportal/templates/about.pt:309
+msgid "about-roadmap-milestone-1-p3"
+msgstr ""
+
+#. Default: As soon as possible, we are going to build a team of specialists being
+#. in charge of clearly defined tasks. Any crossover tasks are planned
+#. collectively.
+#: c3sportal/templates/about.pt:312
+msgid "about-roadmap-milestone-1-p4"
+msgstr ""
+
+#. Default: Milestone II - Presentation of economical, technological and legal
+#. drafts
+#: c3sportal/templates/about.pt:318
+msgid "headline-about-roadmap-milestone-2"
+msgstr ""
+
+#. Default: scheduled for: 1st May 2012
+#: c3sportal/templates/about.pt:320
+msgid "about-roadmap-milestone-2-schedule"
+msgstr ""
+
+#. Default: The first concept on organizational structure and funding has been
+#. introduced in September 2010 at all2gethernow (a2n). Meanwhile, a multitude of
+#. details has been fixed or added.
+#: c3sportal/templates/about.pt:323
+msgid "about-roadmap-milestone-2-p1"
+msgstr ""
+
+#. Default: Before finalizing our work on the public, economic and legal sections,
+#. we will be presenting our results for open discussion. Therefore, we have
+#. submitted an entry for the Call of Papers to re:publica 2012.
+#: c3sportal/templates/about.pt:326
+msgid "about-roadmap-milestone-2-p2"
+msgstr ""
+
+#. Default: Milestone III - Founding C3S as an independent association
+#: c3sportal/templates/about.pt:332
+msgid "headline-about-roadmap-milestone-3"
+msgstr ""
+
+#. Default: scheduled for: 1. July 2012
+#: c3sportal/templates/about.pt:334
+msgid "about-roadmap-milestone-3-schedule"
+msgstr ""
+
+#. Default: Before applying for certification as a collecting society at DPMA, C3S
+#. will be founded as new and independent organization apart from
+#. OpenMusicContest.org e.V. As explained above, the role of OpenMusicContest.org
+#. e.V. will be changing by then.
+#: c3sportal/templates/about.pt:337
+msgid "about-roadmap-milestone-3-p1"
+msgstr ""
+
+#. Default: Milestone IV – 1,000 registrations
+#: c3sportal/templates/about.pt:343
+msgid "headline-about-roadmap-milestone-4"
+msgstr ""
+
+#. Default: scheduled for: 31st October 2012
+#: c3sportal/templates/about.pt:345
+msgid "about-roadmap-milestone-4-schedule"
+msgstr ""
+
+#. Default: A significant number of artists willing to be members of and
+#. represented by the C3S are a central requirement to gain the concession as a
+#. collecting society. Our aim is to find 1.000 artists registering with us before
+#. we apply.
+#: c3sportal/templates/about.pt:348
+msgid "about-roadmap-milestone-4-p1"
+msgstr ""
+
+#. Default: You can view the current number of registrations on the frontpage of
+#. our website anytime. If you didn´t do it yet you can pencil yourself in here.
+#: c3sportal/templates/about.pt:351
+msgid "about-roadmap-milestone-4-p2"
+msgstr ""
+
+#. Default: Milestone V - Application for approval as a collecting society
+#: c3sportal/templates/about.pt:357
+msgid "headline-about-roadmap-milestone-5"
+msgstr ""
+
+#. Default: scheduled for: 1st November 2012
+#: c3sportal/templates/about.pt:359
+msgid "about-roadmap-milestone-5-schedule"
+msgstr ""
+
+#. Default: The final version of the concept will include the statute, the business
+#. model and a prototype showing the workflow of registration and royalty
+#. collection. Furthermore we´ll document the support we get from artists who are
+#. willing to become a part of the C3S.
+#: c3sportal/templates/about.pt:362
+msgid "about-roadmap-milestone-5-p1"
+msgstr ""
+
+#. Default: The Rules - What are the principals we adhere to?
+#: c3sportal/templates/about.pt:370
+msgid "headline-about-rules"
+msgstr ""
+
+#. Default: The C3S advocates tolerance. We will not tolerate racism, glorification
+#. of violence, pornography, discrimination of any minority and any kind of
+#. extremism.
+#: c3sportal/templates/about.pt:373
+msgid "about-rules-1"
+msgstr ""
+
+#. Default: The C3S advocates transparency. This applies to our rates and proceeds
+#. as much as to the administration, billing, balances and financing.
+#: c3sportal/templates/about.pt:376
+msgid "about-rules-2"
+msgstr ""
+
+#. Default: The C3S is governed and designed by its members through democratic
+#. prozesses and with granted equal rights for all members.
+#: c3sportal/templates/about.pt:379
+msgid "about-rules-3"
+msgstr ""
+
+#. Default: The development of sustainable structures is a premise of the C3S. We
+#. aim to become a relevant and continious part of the artist´s income.
+#: c3sportal/templates/about.pt:382
+msgid "about-rules-4"
+msgstr ""
+
+#. Default: The C3S supports creative activity and cultural projects of any kind.
+#. We especially encourage young and non-established artists.
+#: c3sportal/templates/about.pt:385
+msgid "about-rules-5"
+msgstr ""
+
+#. Default: The C3S opposes the criminalisation of private users. Internet-bans and
+#. lawsuits against non-commercial file-sharers are not worthwhile.
+#: c3sportal/templates/about.pt:388
+msgid "about-rules-6"
+msgstr ""
+
+#. Default: The C3S commits to strenghten the right to cultural participation for
+#. everyone. We do so by using user-friendly licensing concepts.
+#: c3sportal/templates/about.pt:391
+msgid "about-rules-7"
+msgstr ""
+
+#. Default: In case of possible copyright violation concerning works we represent
+#. the C3S will try to reach an out-of-court agreement before going to court.
+#: c3sportal/templates/about.pt:394
+msgid "about-rules-8"
+msgstr ""
+
+#. Default: The C3S will maintain completly independent to any third party.
+#. Political lobbying aiming at the C3S will not be tolerated. This goes especially
+#. for businesses supporting the C3S financially. Technology and infrastructure
+#. partner shall not be indispensable as well.
+#: c3sportal/templates/about.pt:397
+msgid "about-rules-9"
+msgstr ""
+
+#. Default: The C3S will question its aims, guidelines and policies on a permanent
+#. basis. Aspects not fulfilling the C3S and societies needs will be revised and
+#. updated.
+#: c3sportal/templates/about.pt:400
+msgid "about-rules-10"
 msgstr ""
 
 #. Default: Home
