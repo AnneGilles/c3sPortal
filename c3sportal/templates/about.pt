@@ -192,14 +192,14 @@
 
 
     <div class="row">
-	<a name="goals"></a>
-	<h2 i18n:translate="headline-about-goals">The Goals - What is C3S aiming at?</h2>
-
+      <a name="goals"></a>
+      <h2 i18n:translate="headline-about-goals">The Goals - What is C3S aiming at?</h2>
+      
       <div class="span5">
-	<h3 i18n:translate="headline-about-goals-admin">Goals in administration & organization</h3>
+	<h3 i18n:translate="headline-about-goals-admin">Goals in administration and organization</h3>
 	<ul>
 	  <li i18n:translate="about-goals-admin-enable-comm-expl">enabling commercial exploitation of works that have been released under Creative Commons and other free licences</li>
-	  <li i18n:translate="about-goals-admin-represent">representing composers, writers & musicians releasing their works under Creative Commons or other free licences Europe wide</li>
+	  <li i18n:translate="about-goals-admin-represent">representing composers, writers and musicians releasing their works under Creative Commons or other free licences Europe wide</li>
 	  <li i18n:translate="about-goals-admin-vocation">democratic vocation by all members</li>
 	  <li i18n:translate="about-goals-admin-voting-rights">full and equal voting rights for each member</li>
 	  <li i18n:translate="about-goals-admin-non-exclusive">non-exclusive membership</li>
