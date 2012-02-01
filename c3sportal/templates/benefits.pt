@@ -165,19 +165,19 @@
        <li i18n:translate="benefits-for-users-li1">
 	 no criminalization of users
        </li>
-       <li i18n:translate="benefits-for-users-li1">
-	 Sponsors & patronage
+       <li i18n:translate="benefits-for-users-li2">
+	 Sponsors &amp; patronage
        </li>
-       <li i18n:translate="benefits-for-users-li1">
+       <li i18n:translate="benefits-for-users-li3">
 	 private events
        </li>
-       <li i18n:translate="benefits-for-users-li1">
+       <li i18n:translate="benefits-for-users-li4">
 	 comprehensive choice in free music
        </li>
-       <li i18n:translate="benefits-for-users-li1">
+       <li i18n:translate="benefits-for-users-li5">
 	  legal downloads
        </li>
-       <li i18n:translate="benefits-for-users-li1">
+       <li i18n:translate="benefits-for-users-li6">
 	 free &amp; legal private usage, incl. swapping, remixing; background music for user generated videos, private websites and podcasts
        </li>
      </ul>
