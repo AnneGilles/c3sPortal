@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-01-31 15:48+0100\n"
+"POT-Creation-Date: 2012-01-31 22:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1039,6 +1039,37 @@ msgstr ""
 #. Default: no criminalization of users
 #: c3sportal/templates/benefits.pt:165
 msgid "benefits-for-users-li1"
+msgstr ""
+
+#. Default: Sponsors &amp; patronage
+#: c3sportal/templates/benefits.pt:168
+msgid "benefits-for-users-li2"
+msgstr ""
+
+#. Default: private events
+#: c3sportal/templates/benefits.pt:171
+msgid "benefits-for-users-li3"
+msgstr ""
+
+#. Default: comprehensive choice in free music
+#: c3sportal/templates/benefits.pt:174
+msgid "benefits-for-users-li4"
+msgstr ""
+
+#. Default: legal downloads
+#: c3sportal/templates/benefits.pt:177
+msgid "benefits-for-users-li5"
+msgstr ""
+
+#. Default: free &amp; legal private usage, incl. swapping, remixing; background
+#. music for user generated videos, private websites and podcasts
+#: c3sportal/templates/benefits.pt:180
+msgid "benefits-for-users-li6"
+msgstr ""
+
+#. Default: For Educational Services and Society.
+#: c3sportal/templates/benefits.pt:189
+msgid "benefits-for-edu-and-soc"
 msgstr ""
 
 #. Default: Welcome to ${C3S}, a new Collecting Society being booted up.
