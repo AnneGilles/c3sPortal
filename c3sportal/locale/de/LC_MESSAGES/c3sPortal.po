@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: c3sPortal\n"
 "Report-Msgid-Bugs-To: https://github.com/AnneGilles/c3sPortal/issues\n"
-"POT-Creation-Date: 2012-01-31 15:48+0100\n"
-"PO-Revision-Date: 2012-02-01 09:05+0000\n"
+"POT-Creation-Date: 2012-01-31 22:53+0100\n"
+"PO-Revision-Date: 2012-02-01 10:55+0000\n"
 "Last-Translator: AnneGilles <a@shri.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1490,6 +1490,40 @@ msgstr "Für private Nutzer."
 #: c3sportal/templates/benefits.pt:165
 msgid "benefits-for-users-li1"
 msgstr "keine Kriminalisierung"
+
+#. Default: Sponsors &amp; patronage
+#: c3sportal/templates/benefits.pt:168
+msgid "benefits-for-users-li2"
+msgstr "Förderer TODO"
+
+#. Default: private events
+#: c3sportal/templates/benefits.pt:171
+msgid "benefits-for-users-li3"
+msgstr "Privatveranstaltungen TODO"
+
+#. Default: comprehensive choice in free music
+#: c3sportal/templates/benefits.pt:174
+msgid "benefits-for-users-li4"
+msgstr "große Auswahl kostenloser Musik TODO"
+
+#. Default: legal downloads
+#: c3sportal/templates/benefits.pt:177
+msgid "benefits-for-users-li5"
+msgstr "legale Downloads TODO"
+
+#. Default: free &amp; legal private usage, incl. swapping, remixing;
+#. background
+#. music for user generated videos, private websites and podcasts
+#: c3sportal/templates/benefits.pt:180
+msgid "benefits-for-users-li6"
+msgstr ""
+"private Nutzung ist legal,\n"
+"einschl. Tausch, Remixes, Musik für Videos, Websites und Podcasts"
+
+#. Default: For Educational Services and Society.
+#: c3sportal/templates/benefits.pt:189
+msgid "benefits-for-edu-and-soc"
+msgstr "Bildungseinrichtungen & Gesellschaft"
 
 #. Default: Welcome to ${C3S}, a new Collecting Society being booted up.
 #: c3sportal/templates/home.pt:11
