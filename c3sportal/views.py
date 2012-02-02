@@ -56,3 +56,8 @@ def support_view(request):
 
 def footer_view(request):
     return render('templates/footer.pt', {'foo': 'bar'})
+
+
+@view_config(route_name='imprint', renderer='templates/imprint.pt')
+def imprint_view(request):
+    return {'footer': footer_view(request)}

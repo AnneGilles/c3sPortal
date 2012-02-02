@@ -22,5 +22,6 @@ def main(global_config, **settings):
     config.add_route('about', '/about')
     config.add_route('benefits', '/benefits')
     config.add_route('support', '/support')
+    config.add_route('imprint', '/imprint')
     config.scan()
     return config.make_wsgi_app()

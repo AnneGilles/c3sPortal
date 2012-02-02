@@ -1,0 +1,51 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="c3sPortal"
+      metal:use-macro="base">
+  <tal:block metal:fill-slot="content">
+
+    <h1 i18n:translate="headline-imprint">Imprint</h1>
+
+    <p>[German law demands this]</p>
+
+    <a name="top"></a>
+    <h2>OpenMusicContest.org e.V.</h2>
+
+    <p>
+      Barfüßerstr. 5<br />
+      35037 Marburg<br />
+      <br />
+      Mail: http://www.openmusiccontest.org/contact-info<br />
+      <br />
+      vertretungsberechtigter Vorstand:<br />
+      <br />
+      Meik Michalke (Vorsitzender)<br />
+      Christoph Scheid (stellv. Vorsitzender)<br />
+      Marcel Hennes (stellv. Vorsitzender)<br />
+      Sebastian Schmachtel (Schatzmeister, stellv. Vorsitzender)<br />
+      Registergericht: Amtsgericht Marburg<br />
+      Registernummer: AR 4806 <br />
+      Steuernummer: DE 112588781<br />
+      Europäische Steuernummer: n.n.<br />
+      <br />
+      Inhaltlich Verantwortlicher gemäß § 6 MDStV: Meik Michalke<br />
+      <br />
+      Bankverbindung:<br />
+      OpenMusicContest.org. e.V.<br />
+      Kto. 68394201 <br />
+      Volksbank Mittelhessen <br />
+      BLZ 51390000<br />
+      BIC: VBMHDE5F <br />
+      IBAN: DE75513900000068394201<br />
+      <br />
+      <br />
+
+    </p>
+    <h3>Haftungshinweis:</h3>
+    <p>
+      Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren jeweilige Betreiber verantwortlich.
+    </p>
+  </tal:block>
+</html>
