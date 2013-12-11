@@ -18,6 +18,7 @@ def main(global_config, **settings):
     config.add_subscriber('c3sportal.subscribers.add_locale_to_cookie',
                           'pyramid.events.NewRequest')
     config.add_translation_dirs('c3sportal:locale')
+    config.include('pyramid_chameleon')
     config.add_route('home', '/')
     config.add_route('about', '/about')
     config.add_route('benefits', '/benefits')
